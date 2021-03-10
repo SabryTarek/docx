@@ -1,0 +1,134 @@
+
+search 
+
+apk seaqrch bash | grep <program-name>
+
+<program-name>-bash-completion
+
+$ apk search bash
+
+    docker-bash-completion-19.03.12-r0
+    tpm-bash-completion-1.3.3-r0
+    swayidle-bash-completion-1.6-r2
+    vifm-bash-completion-0.10.1-r2
+    ibus-bash-completion-1.5.22-r3
+    grub-bash-completion-2.04-r1
+    libmbim-bash-completion-1.22.0-r0
+    dconf-bash-completion-0.36.0-r0
+    git-bash-completion-2.26.2-r0
+    py3-pip-bash-completion-20.1.1-r0
+    the_silver_searcher-bash-completion-2.2.0-r0
+    meson-bash-completion-0.54.2-r1
+    bash-5.0.17-r0
+    aws-cli-bash-completion-1.18.55-r0
+    ripgrep-bash-completion-12.1.0-r0
+    tracker-bash-completion-2.3.4-r2
+    subversion-bash-completion-1.13.0-r2
+    virt-manager-bash-completion-2.2.1-r3
+    mpv-bash-completion-0.32.0-r1
+    fwup-bash-completion-1.5.2-r0
+    task-bash-completion-2.5.1-r2
+    appstream-glib-bash-completion-0.7.17-r2
+    falkon-bash-completion-3.1.0-r3
+    hstr-bash-completion-2.2-r0
+    cpupower-bash-completion-5.4.35-r0
+    stress-ng-bash-completion-0.11.21-r0
+    bash-dev-5.0.17-r0
+    bash-completion-2.10-r0
+    bash-completion-doc-2.10-r0
+    todo.txt-cli-bash-completion-2.11.0-r0
+    bubblewrap-bash-completion-0.4.1-r0
+    lldpd-bash-completion-1.0.5-r0
+    pdfgrep-bash-completion-2.1.2-r3
+    checkbashisms-2.20.3-r0
+    bspwm-bash-completion-0.9.9-r0
+    rcon-bash-completion-0.5-r0
+    ikona-bash-completion-1.0-r1
+    rustup-bash-completion-1.21.1-r0
+    wireguard-tools-bash-completion-1.0.20200510-r0
+    mosh-bash-completion-1.3.2-r14
+    borgbackup-bash-completion-1.1.11-r2
+    notmuch-bash-completion-0.29.3-r1
+    libvirt-bash-completion-6.6.0-r4
+    drbd-utils-bash-completion-9.12.2-r1
+    gopass-bash-completion-1.9.2-r0
+    rdiff-backup-bash-completion-2.0.3-r0
+    jool-tools-bash-completion-4.0.9-r0
+    pulseaudio-bash-completion-13.0-r10
+    nnn-bash-completion-3.2-r0
+    mtr-bash-completion-0.93-r2
+    lxc-bash-completion-4.0.5-r0
+    youtube-dl-bash-completion-2020.05.29-r0
+    elogind-bash-completion-243.4-r4
+    crystal-bash-completion-0.34.0-r0
+    hugo-bash-completion-0.71.1-r0
+    hcloud-bash-completion-1.16.2-r1
+    bash-dbg-5.0.17-r0
+    checkbashisms-doc-2.20.3-r0
+    ldc-bash-completion-1.20.1-r6
+    opensc-bash-completion-0.20.0-r2
+    open-lldp-bash-completion-0.9.46-r5
+    ethtool-bash-completion-5.6-r0
+    lastpass-cli-bash-completion-1.3.3-r1
+    lightdm-bash-completion-1.30.0-r2
+    firejail-bash-completion-0.9.62-r1
+    arch-install-scripts-bash-completion-23-r0
+    libqmi-bash-completion-1.24.12-r0
+    pass-bash-completion-1.7.3-r2
+    jo-bash-completion-1.3-r0
+    cargo-bash-completions-1.44.0-r0
+    docker-compose-bash-completion-1.25.4-r3
+    flatpak-bash-completion-1.6.3-r1
+    zathura-bash-completion-0.4.5-r3
+    cmake-bash-completion-3.17.2-r0
+    faenza-icon-theme-bash-1.3.1-r6
+    pacman-bash-completion-5.2.1-r2
+    herbstluftwm-bash-completion-0.8.2-r0
+    xbps-bash-completion-0.59.1-r0
+    ceph-bash-completion-14.2.9-r1
+    msitools-bash-completion-0.100-r0
+    mercurial-bash-completion-5.4-r0
+    networkmanager-elogind-bash-completion-1.24.2-r0
+    modemmanager-bash-completion-1.12.10-r0
+    wl-clipboard-bash-completion-2.0.0-r3
+    fd-bash-completion-8.1.1-r0
+    icingaweb2-bash-completion-2.7.3-r2
+    networkmanager-bash-completion-1.24.2-r0
+    sn0int-bash-completion-0.18.2-r0
+    alacritty-bash-completion-0.4.2-r0
+    powertop-bash-completion-2.11-r1
+    cmus-bash-completion-2.8.0-r0
+    ostree-bash-completion-2020.3-r0
+    util-linux-bash-completion-2.35.2-r0
+    ndctl-bash-completion-68-r1
+    parallel-20200522-r0
+    kmod-bash-completion-27-r0
+    wbar-bash-completion-2.3.4-r3
+    udisks2-bash-completion-2.9.0-r0
+    icinga2-bash-completion-2.11.3-r1
+    openvswitch-bash-completion-2.12.0-r3
+    fzf-bash-completion-0.21.1-r1
+    gpaste-bash-completion-3.36.3-r1
+    etckeeper-bash-completion-1.18.14-r0
+    perf-bash-completion-5.4.35-r0
+    aria2-bash-completion-1.35.0-r0
+    chezmoi-bash-completion-1.8.1-r0
+    nvme-cli-bash-completion-1.11.1-r0
+    btrfs-progs-bash-completion-5.6.1-r0
+    mpc-bash-completion-0.33-r2
+    gnome-control-center-bash-completion-3.36.4-r0
+    lab-bash-completion-0.17.2-r1
+    tlp-bash-completion-1.3.1-r3
+    colord-bash-completion-1.4.4-r6
+    go-ipfs-bash-completion-0.5.1-r0
+    swaylock-bash-completion-1.5-r3
+    sway-bash-completion-1.4-r5
+    bash-doc-5.0.17-r0
+    iproute2-bash-completion-5.6.0-r0
+    openrc-bash-completion-0.42.1-r11
+    polybar-bash-completion-3.4.3-r0
+    restic-bash-completion-0.9.6-r1
+
+
+
+

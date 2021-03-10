@@ -1,0 +1,10 @@
+
+OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.
+The suite includes:
+slapd - stand-alone LDAP daemon (server)
+libraries implementing the LDAP protocol, and
+utilities, tools, and sample clients.
+Also available from the OpenLDAP Project:
+Fortress - Role-based identity access management Java SDK
+JLDAP - LDAP Class Libraries for Java
+JDBC-LDAP - Java JDBC - LDAP Bridge Driver
