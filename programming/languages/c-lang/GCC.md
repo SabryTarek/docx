@@ -14,7 +14,7 @@ gcc hello_world.c (minmal command) # output: a.out
 options:
 -o <output_file_name>
 -Wall -> emitting warning
--g -> include debugging information
+-g -> include  symboles table
 
 
 gcc can optimize the output so that the final executable produces the same result but has faster performance and may result in a smaller sized executable.
@@ -28,9 +28,12 @@ gcc can optimize the output so that the final executable produces the same resul
 -O3  the highest level of optimizations -> GCC understood that I was just doodling and doing nothing important with the variables and the loop. So it left me a blank stub with no code.
 
 
--v -> gcc Version
+gcc -v -> gcc Version
 
 
 gcc Enable nearly all warnings
 C -> gcc -Wall -Wextra -o main main.c
 C++ -> g++ -Wall -Wextra -Wconversion -Woverloaded-virtual -o main main.cpp
+
+
+

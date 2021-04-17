@@ -178,3 +178,15 @@ int main(int argc, char argv[]) {
 
 lisp is linkedlist
 
+
+
+
+---
+LLVM
+
+
+### Referances
+
+- [Debugging with LLVM A quick introduction to LLDB and LLVM sanitizers](https://www.youtube.com/watch?v=lFew5gIF-Ro)
+
+---

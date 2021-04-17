@@ -4,7 +4,7 @@ Makefile
 
 
 taget: dependancy files
-    action
+    action/rule
 
 output: main.o class.o
     g++ main.o class.o -o output && ./output

@@ -3,7 +3,7 @@ Compititive Programming
 contest time in codeforces  is 2 hours
 ACM Egyptian Collegiate Programming Contest (ECPC)
 
-
+- codeforces round
 ACPCNews
 ICPCNews
 Coach Academy
@@ -22,6 +22,9 @@ WF => World Final
 Baloons
 
 
+Problem setter
+
+trick or observation
 
 
 https://kontests.net/
@@ -68,8 +71,8 @@ Codeforces Problem tags
 - Sorting
 - string
 - math
-- geometry
-- Bruteforce
+- geometry -> observe mathmatical equation
+- Bruteforce -> loop
 - two pointer
 ---
 -  *800
@@ -98,6 +101,14 @@ $ ./main
 - odd * odd = odd
 - even * odd = even
 ---
+- factorial
+- fibonacci
+
+- GCD
+- LC
+
+
+---
 - ceil
 - floor
 - round
@@ -125,10 +136,19 @@ Sentinel  - MAXINT
 unsolved problems
 
 
+problem statement
+sample test cases
+
 
 - onsite
 - online
 
+
+- Study
+- Solve
+    - topic
+    - sheet
+- contest
 
 
 
@@ -161,3 +181,95 @@ Assiut beginners sheet === Level 0 Training  (NewComers)
 إذا حصلت مشكلة في الجهاز الأول يتم إخلاء التطبيق لجهاز آخر. التطبيق لا يتعطل لأنه لا يعمل على التنك بل على السحابة المكونة من جهازين. صحيح أن قدرة السحابة أصبحت أضعف بتعطل أحد عناصرها لكنها لا تزال تعمل.
 
 الآن أين الأجهزة؟ في مكتبي في عمان. من يمتلكها؟ أنا.
+
+
+
+### automation for CP
+- code editor
+    - code formater
+    - auto save
+    - code linter
+    - debugger
+
+    - keyboared shortcuts
+        - run makefile
+        - debug
+        - generate new boilerplate
+        - 
+- mkakefile
+- boilerplate (C++, C)
+    - info section
+        - author
+        - date
+        - probem source
+        - excution time
+        - used memory
+        - running time
+        - complexity
+        - compiler version
+        - C++ version
+        - techniqe
+    - contain #define
+        - output
+        - input
+        - for loop
+        - infinte while loop
+        - def type
+        - comon variables
+            - int count
+            - bool flag
+            - ans
+            - arr[n]
+            - 
+- gnerate flow chart
+- docmentation
+
+
+##### tasks
+- C++ revesion
+- segmat tree
+- Edu on coedforces
+
+
+> 10^9 no loop think at equation
+
+
+
+
+void miniMaxSum(vector<int> arr)
+{
+    unsigned long long int  min = arr[0],
+                            max = arr[0],
+                            tempMin,
+                            arrSum = 0;
+    for(int i=0; i<arr.size(); i++)
+    {
+        arrSum +=arr[i];
+        if(min>arr[i])
+            min = arr[i];
+        if(max<arr[i])
+            max = arr[i];
+    
+    }
+    tempMin = min;
+    min = arrSum - max;
+    max = arrSum - tempMin;
+    cout<<min << ' ' <<max <<"\n\n";
+}
+
+
+int birthdayCakeCandles(vector<int> candles) {
+    int  max = candles[0],
+         count = 0;
+    for(int i=0; i<candles.size(); i++)
+    {
+        if(max<candles[i])
+            max = candles[i];
+    }
+    for(int i=0; i<candles.size(); i++)
+    {
+        if(max==candles[i])
+            count++;
+    }
+    return count;
+}

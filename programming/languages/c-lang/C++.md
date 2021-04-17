@@ -1,4 +1,5 @@
-/**************************************************************************************************************************************/
+C++
+===
 
 * Primitive Data Types:
     - int: Integer  -> 4 bytes
@@ -7,7 +8,7 @@
     - float: Floating Point -> 4 bytes
     - double: Double Floating Point -> 8 bytes
     - viod: Valueless or Void -> 1 bytes
-    - wchar_t.: Wide Characte -> 1 bytes
+    - wchar_t.: Wide Character -> 1 bytes
 
 * Abstract or user defined data type:
 
