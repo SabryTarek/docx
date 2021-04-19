@@ -150,3 +150,72 @@ dooom
 http://emacs.sexy/
 http://terminal.sexy/
 http://nginx.config/
+
+
+
+
+
+### [Emacs tour](https://www.gnu.org/software/emacs/tour/index.html)
+---
+- extensible
+- customizable
+- self-documenting
+- real-time display editor
+---
+---
+- integrates with GDB to provide an IDE (M-x gdb)
+- compare two files and highlight their differences (M-x ediff)
+- Emacs is a file manager (M-x dired)
+- read news, mail, and RSS feeds (M-x gnus)
+- can even play tetris in Emacs (M-x tetris)
+
+##### some people consider Emacs to be not merely a text editor but almost a complete operating system. Some users find that they can do almost all of their work from within Emacs.
+---
+### More useful features
+###### Integration with common tools
+
+- M-x shell
+- M-x eshell
+- M-x compile
+- M-x gdb
+- M-x grep
+- M-x man
+- M-x calculator
+- M-x calendar
+- M-x phases-of-moon
+- M-x shell-command or M-!
+- M-x shell-command-on-region or M-|
+- 
+- 
+---
+* [Emacs games](https://www.emacswiki.org/emacs/CategoryGames)
+    - M-x tetris
+    - M-x hanoi
+    - M-x doctor
+- 
+- 
+
+### Tips for beginners
+- C-/
+- C-g
+- [instructions for moving Ctrl](https://www.emacswiki.org/emacs/MovingTheCtrlKey)
+- 
+### Migrating to Emacs
+---
+###### Emacs for Windows users "CUA mode"
+- C-z -> suspend
+- C-x -> prefix key
+- C-c -> prefix key
+- C-v -> next page
+>> learn more about CUA mode by typing C-h f cua-mode RET
+---
+###### Emacs for vi/vim users Viper (M-x viper-mode)
+- It provides different levels of vi-adherence, depending on how vi-like you want your Emacs to be.
+>> For more information about Viper, see (info "(viper)")
+---
+### Emacs resources
+- [separate manuals (C-h i d)](https://www.gnu.org/software/emacs/manual/)
+    - [GNU Emacs Manual (C-h r)](https://www.gnu.org/software/emacs/manual/emacs.html)
+    - [GNU Emacs FAQ (C-h C-f)](https://www.gnu.org/software/emacs/manual/efaq.html)
+- [EmacsWiki](http://www.emacswiki.org/)
+- [help-gnu-emacs mailing list](http://lists.gnu.org/mailman/listinfo/help-gnu-emacs)
