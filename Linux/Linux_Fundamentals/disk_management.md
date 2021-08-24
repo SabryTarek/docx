@@ -18,8 +18,7 @@ Disk management
 
 
 
-- lsblk
-- fdisk -l
+- fdisk -l === lsblk
 - fdisk #/dev/sda#
 
 
@@ -253,3 +252,46 @@ lsof ->ls of -> أيه اللي شغال في ال path
 
 
 
+mount
+-L
+-U
+-o
+
+umount
+
+losetup
+
+lsblk
+df -Th
+du
+dd
+qemu-img
+
+
+> disk
+fdisk
+cdisk
+> parted
+cparted
+gparted
+
+
+mkfs
+
+mkfs.[]
+
+sync
+
+partprobe
+
+fsck
+
+ebtables
+
+## files
+
+fuse
+
+/etc/fstab
+/proc/mount
+/proc/fs

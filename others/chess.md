@@ -1,7 +1,8 @@
 Chess (Royal Game)
 ==================
 
-------------------------------------------------------------------------------------------------------------
+---
+
 Top Chess Players
 =================
 
@@ -9,13 +10,15 @@ Top Chess Players
 2. Fabiano Caruana (Italian-American)
 4. Shakhriyar Mamedyarov 
 4. HIKARU NAKAMURA (Japanese-American)
-------------------------------------------------------------------------------------------------------------
+---
+
 
 * Chess prodigy
     - Mariya Olegivna Muzychuk
     - Judit Polgár
 
-------------------------------------------------------------------------------------------------------------
+---
+
 
 > Notation: Chess Language
 - chessboard (64)
@@ -151,7 +154,8 @@ any game consist of three parts:
 
 # Budapest: capital of Hungary
 # Elo rating system
-------------------------------------------------------------------------------------------------------------
+---
+
 * Protocols
   * UCI -> java -> Universal Chess Interface
 * WinBoard/XBoard -> Chess Engine Communication Protocol
@@ -175,7 +179,9 @@ any game consist of three parts:
     - Cutechess (free)
     - [Nibbler](https://github.com/fohristiwhirl/nibbler) (free, has Lc0 specific features) Win - Linux
     - Chessbase (paid)
-
+Scid vs PC-4.19.x64
+stockfish-9-win
+lichobile
 -  Set your PV to 3 (or 4).  PV = Principal Variation.  This will list the top 3 (or 4) moves.
 
 
@@ -188,7 +194,8 @@ Legal's Mate
 - Italian Game
 - Three-Knight's Game
 - Bishop Game
-------------------------------------------------------------------------------------------------------------
+---
+
 * play online
     - https://chess.com
     - https://lichess.org
@@ -206,7 +213,8 @@ Legal's Mate
 https://new.uschess.org/home/
 
 Wayback Machine: https://archive.org
-------------------------------------------------------------------------------------------------------------
+---
+
 * chess.com:
     - Daily Chess
     - Live Chess
@@ -223,7 +231,8 @@ Blitz
 Rapid
 Standard
 
-------------------------------------------------------------------------------------------------------------
+---
+
 
 - Essam Hamouda Khaled Mohamed =  كل ما يخص الشطرنج chess collection
 - Joseph Gamal 2 videos
@@ -235,16 +244,17 @@ Standard
 - https://www.youtube.com/user/sadlonelylad/videos
 - https://www.youtube.com/watch?v=6ogwNdcoGg0
 
-------------------------------------------------------------------------------------------------------------
+---
+
 
 - one two three infinity
-- سلسلة فارس الأندلس كاملة
 
 
 - Deploy your knights before your Bishops
 # light square h1 & a1 at right hand side
 
-------------------------------------------------------------------------------------------------------------
+---
+
 Chess Immortals: The World Champions of Chess
 =============================================
 
@@ -266,7 +276,8 @@ Chess Immortals: The World Champions of Chess
 14. Vladimir Kramnik (2000-2007)
 15. Viswanathan Anand (2007-2013)
 16. Magnus Carlsen (2013-current)
-------------------------------------------------------------------------------------------------------------
+---
+
 Egypt:
 1. Ahmed Adly (2005)
 2. Bassem Amin (2006)
@@ -289,15 +300,15 @@ FIDE 1924 includes 1621 grandmasters, of which 1585 are male and 36 are female.
 - World Junior Chess Championship -> is an under-20 chess tournament (FIDE)
 - the winner receives the Grandmaster
 - the second and third-place receive the International Master titles
------------------------------------------------------------------------------------------------------------
+---
 - Chess Oscar
------------------------------------------------------------------------------------------------------------
+---
 Chess World Cup
 ===============
 
  - 128-player
  - single-elimination
------------------------------------------------------------------------------------------------------------
+---
 
 Black win:
 1. e4 e5
@@ -359,11 +370,11 @@ W
 3.Qh5 Na6
 4.Qxf7# 
 
------------------------------------------------------------------------------------------------------------
+---
 PGN (Portable Game Notation)
 ============================
 
------------------------------------------------------------------------------------------------------------
+---
 
 FEN (Forsyth–Edwards Notation)
 ==============================
@@ -396,7 +407,7 @@ rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR
 - Evan Gambit
 
 
------------------------------------------------------------------------------------------------------------
+---
 Chess variants
 ==============
     - Standard
@@ -407,7 +418,7 @@ Chess variants
     - Racing Kings
     - King Of The Hill
     - Threecheck
------------------------------------------------------------------------------------------------------------
+---
 Encyclopaedia of Chess Openings (ECO)
 =====================================
 - Chess Informant since 1966
@@ -416,7 +427,7 @@ Encyclopaedia of Chess Openings (ECO)
 
 #Capablanca's recommendation to begin studying chess with the endgame.
 
------------------------------------------------------------------------------------------------------------
+---
 double checkmate
 
 
@@ -485,11 +496,8 @@ Opening Traps without mate
 ICCF analysis tool
 
 
+- Chess Engines Technices
+    - MiniMax
+        - Alpha-Beta
 
-
-
-
-MiniMax
-    Alpha-Beta
-
-Nueral Network
+    - Nueral Network

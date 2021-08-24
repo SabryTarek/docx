@@ -1,3 +1,6 @@
+Connan
+===
+
 الروماجي: استخدام الحروف اللاتينية لكتابة اللغة اليابنية بغرض تسهيل قراءة النصوص اليابانية لمن لا يعرفون اللغة
 
 سان : 
@@ -25,3 +28,7 @@
 
 
 500:517
+
+
+> ### 809
+- if you glow a gum or anything on a lamp , it will blue up because the heat and the pressure . 

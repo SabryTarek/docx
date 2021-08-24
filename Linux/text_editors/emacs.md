@@ -115,11 +115,14 @@ find-file C-x C-f
 - edit global function
 - create new function
 
-~/.emacs
 Emacs Lisp (elisp) language
 
-
-
+~/.emacs
+~/.emacs.d/
+    - init.e
+    - package.el
+    - congif.el
+settings.org
 -----------------------------------------------------------------------------------------------------------------
 Emacs Lisp
 ==========
@@ -127,7 +130,7 @@ Emacs Lisp
 - (setq <variable_name> <value>)
 - true -> t = +1
 - false -> nil = -1
-
+(global-set-key (kbd "<f6>") 'org-capture)
 -----------------------------------------------------------------------------------------------------------------
 # dried (file-manager)
 
@@ -143,9 +146,12 @@ Emacs Lisp
 U -> update repo
 package-install <name>
 -----------------------------------------------------------------------------------------------------------------
-spacemacs
-dooom
-
+* Emacs Distribution
+    - Doom
+    - Spacemacs
+    - Scimax
+    - [](https://github.com/rougier/elegant-emacs)
+    - [](https://github.com/rougier/nano-emacs)
 
 http://emacs.sexy/
 http://terminal.sexy/
@@ -219,3 +225,48 @@ http://nginx.config/
     - [GNU Emacs FAQ (C-h C-f)](https://www.gnu.org/software/emacs/manual/efaq.html)
 - [EmacsWiki](http://www.emacswiki.org/)
 - [help-gnu-emacs mailing list](http://lists.gnu.org/mailman/listinfo/help-gnu-emacs)
+
+
+
+.md
+.org
+.rst reStructuredText
+docutils
+rst2html,py
+.
+
+M-x load-file
+M-x text-scale-increase alias: M-x text-increase
+
+M-x
+
+
+
+- magit
+- projectile
+- evil
+- use-package
+- EWW
+- MU4e
+- elfeed
+- GNUS
+- dired
+- neotree -> nerdtree in vim
+- dash
+- doom-theme
+- tramp
+- ibuffer
+- eshell
+- ivy
+- whichkey
+- hydera
+- vterm
+
+
+
+
+- org-calc
+- org-toc
+- org-bable
+- org-tangle
+- 

@@ -11,9 +11,8 @@ pip3 -> pip 3 -> pip3 install django==1.11
 
 pip install <package_name>
 conda install <package_name>
-
+anconda : download automaticly more than 300 compatable liberary in data science filed 
 -------------------------------------------------------------------------------------------------------------------------------------
-
 apt install python-<package_name>
 	EX: apt install python-pip # install pip
 apt install python3-<package_name>
@@ -31,7 +30,6 @@ dynamic language -> slow -> to fast it -> pypi
 python -m venv <env_name>
 
 str
-
 -------------------------------------------------------------------------------------------------------------------------------------
 Python Data Structures
 ======================
@@ -68,8 +66,8 @@ else
 and - or - not
 
 if in -> if Ahmed in Name_List:
--------------------------------------------------------------------------------------------------------------------------------------
 anonyms function === lambda function
+-------------------------------------------------------------------------------------------------------------------------------------
 
 
 python interpreter
@@ -83,23 +81,6 @@ python interpreter
 
 open("path", mode)
 constructor === __init__(self)
-
-
-
-
-
-
------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 rather than pipenv install --ignore-pipfile, better to use pipenv install --deploy command because that one checks if your Pipfile.lock is in sync with the Pipfile; if they are out of sync, it errors.﻿
@@ -162,42 +143,7 @@ __name__ = "main"
 
 ده هتدخل في المتغير بتاع pyinstaller وهو هيدمج المكتبات ملفات ال python 
 بس في برنامج 
--------------------------------------------------------------------------------------------------------------------------------------
-Python:
-	- jupyter Notebook
-	- Panda
-	- Numpy
-	- Matpltlib
-	- NLTK
-	- Beautful Soap
 
-
-
-
-
-AI(Artificial Intelligence)
-	ML(Machine Learning)
-		DL(Deep Learning)
-
-
-- Big Data
-- Data Sciences
-- Blockchain
-
-
-- AR
-- VR
-- MR
-
-
-IoT
-
-
-Cloud Computing
-
-Repository
-	Datasets
---------------------------------------------------------------------------------------------------------------------------------------------
 
 py3clean
 py3versions
@@ -219,5 +165,5 @@ pygettext2.7pygettext3.5python2
 python3
 python3.5m
 pyversions
---------------------------------------------------------------------------------------------------------------------------------------------
+
 

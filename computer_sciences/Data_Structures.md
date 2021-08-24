@@ -24,3 +24,8 @@
 
 ref:
 - [](http://opendatastructures.org/)
+
+
+
+
+radix tree = prefix tree = Digital tree = Trie = Tree + HashTable

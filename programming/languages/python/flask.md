@@ -165,10 +165,39 @@ from webassets import Environment, Bundle
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 pysql
 pymongo
---------------------------------------------------------------------------------------------------------------------------------------------------------
-|npm|yarn|compsser|pip|pipenv|
-|---|----|--------|---|------|
-|install , i|install, i, addd|require|install|install|
-|ls|||freeaze|graph|
+------------------------------------------------------------------------------------------------------------------------------------------
+### flask extensions
+- flask-sock
+--------------
+
+! vim wsdemo.py
+
+```
+from flask import Flask
+from flask_sock import Sock
 
 
+app = Flask(__name__)
+sock = Sock(app)
+
+
+@sock.route('/reverse')
+def reverse(ws):
+    while True:
+        text = ws.receive()
+        ws.send(text[::-1])
+```
+! pip freeze
+! pip install "werkzeug>=2.0.0rc3"
+! FLASK_APP=wsdemo.py flask run
+! curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+! nvm install node
+! npm i -g wscat
+! wscat --connect http://127.0.0.1:5000/reverse
+! gunicorn -b :5000 --workers 4 --threads 100 wsdemo:app
+
+
+
+3.5 inch hard disk
+5 amp
+12 volt

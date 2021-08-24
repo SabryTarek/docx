@@ -5,18 +5,11 @@ free host sites
 - dnsdumpstar
 - https://www.yougetsignal.com/
 
-
-
 - htts/https
 - dns
 	- slowdns
 	- yourfreedom
 	- droidvpn
-
-
-https://chrome.google.com/webstore/category/themes
-
-
 
 termnology
 ISP for SIM Card
@@ -27,12 +20,16 @@ free host -> website open without internet subscription
 proxy
 vpn
 
-
-
-https://sshstores.net/
-fastssh
-sshocean
-cyberssh
+---
+https://www.fastssh.com
+https://cyberssh.com
+https://fullssh.com
+https://skyssh.com
+https://speedssh.com
+https://cloudssh.us
+http://www.globalssh.net
+https://sshstores.net
+https://sshocean.com
 ---
 - http custom (.hc)
 - http injector ()
@@ -40,5 +37,6 @@ cyberssh
 - sockstcp ()
 - openvpn
 - wiregurd
+	- TunSafe
 - tweak tunnel
 ---

@@ -57,3 +57,7 @@ To edit the path variable, click on Params to see it already entered as the key.
 
 
 
+### Alternatives
+- postwoman
+- postman cli 
+

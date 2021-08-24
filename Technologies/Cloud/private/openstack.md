@@ -1,5 +1,5 @@
 OpenStack https://openstack.org/
-================
+===
 
 Introduction to OpenStack Edx Linux Foundation
 https://www.edx.org/course/introduction-to-openstack?fbclid=IwAR2n8idyKOI-nSIjAvXGRWFoWAyd4IYZHfJoeAGly1F_UBp5Sk9bHXjO4ME
@@ -9,7 +9,21 @@ https://www.edx.org/course/introduction-to-openstack?fbclid=IwAR2n8idyKOI-nSIjAv
 Redhat-based -> RDO (RedHat Distribution of OpenStack) developed tool called packstack which is used a puppet manifest to download and configure all openstack Servicies
 Ubuntu-based -> DevStack
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+sudo useradd -s /bin/bash -d /opt/stack -m stack && \
+echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stack && \
+sudo su - stack && \
+git clone https://opendev.org/openstack/devstack && \
+cd devstack && \
+cat _EOF_ >>
+[[local|localrc]]
+ADMIN_PASSWORD=secret
+DATABASE_PASSWORD=$ADMIN_PASSWORD
+RABBIT_PASSWORD=$ADMIN_PASSWORD
+SERVICE_PASSWORD=$ADMIN_PASSWORD
+
+./stack.sh
+---
 
 
 systemctl disable firewalld
@@ -31,7 +45,7 @@ cat ketstonecr_admin
 export OS_USERNAME=admin
 export OS_PASSWORD=sklgs;nz;k43
 export OS_AUTH_URL=http://10.0.2.15:5000/v2.0
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 Ubuntu OpenStack installer
 
 sudo apt-add-repository ppa:cloud-installer/testing
@@ -43,7 +57,7 @@ sudo openstack-install
 - *Single Install
 - Multi Install
 - Landscape
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 instanace
@@ -56,7 +70,7 @@ instanace
 
 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 OpenStack Arhitecture
 OpenStack Servicies (Component)
@@ -68,7 +82,7 @@ OpenStack Servicies (Component)
 - Neutron (Network Manager)
 - Cinder (block storage)
 - Swift (object storage)
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 Cloud Computing

@@ -1,13 +1,13 @@
-Add to Django
-==========
-- DTL : Django Template Language
+Django
+===
+# DTL : Django Template Language
     - tags {% %}
     - variables {{}}
 
 My first name is {{ first_name }}. My last name is {{ last_name }}.
 {'first_name: 'Mohammed', 'last_name': 'Taher'}
 My first name is Mohammed. My last name is Taher.
------------------------------------------------------------------------------
+---
 - you can use Django Templates or any template engine like Jinja2
 - any view take HttpRequest object as a prameter its convintion name is request
 
@@ -49,8 +49,6 @@ def index(request):
     return HttpResponse(template.render(context, request))
 ```
 
-===
-
 ```Django
 from django.shortcuts import render
 
@@ -74,26 +72,6 @@ def detail(request, question_id):
     except Question.DoesNotExist:
         raise Http404("السؤال المطلوب غير موجود.")
     return render(request, 'polls/detail.html', {'question': question})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 - model -> model
@@ -120,12 +98,8 @@ python 3.4.3 most stable
 
 
 django | python manage.py runserver
-anconda : download automaticly more than 300 compatable liberary in data science filed 
-
-
 
 - pip install djangorestframework
-
 
 django-admin startproject tutor #main configraion directory
 python3 manage.py startapp blog #app every app has its own migration file

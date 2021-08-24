@@ -1,28 +1,26 @@
 Compressing & Archiving
 =======================
 
-> Compressing
-algorithms (utility):
-    - gzip (faster)
-        - <fie_name>.gz
-        - gunzip <fie_name>.gz
-    - bzip2 (higher commpressing ratio)
-        - <fie_name>.bz2
-        - bunzip2 <fie_name>.bz2
-        
-        .
-        .
-    - zip
-    - xzip
-    - winzip
+* Compressing
+    + impmentations (utilities):
+        - gzip (faster)
+            - <fie_name>.gz
+            - gunzip <fie_name>.gz
+        - bzip2 (higher commpressing ratio)
+            - <fie_name>.bz2
+            - bunzip2 <fie_name>.bz2
 
-!!! not support video & Audio
-when you open file in winrar it extract in windows temp
+            .
+            .
+        - zip
+        - xzip
+        - winzip
+        - xz
+    - you do not have 'xz' installed, which I need to unpack the binary tarball
 
+!!! not support video & Audio & binary
+when you open file in winrar it extract in windows temp folder
 
-
-time
-du -sh <file | directory> # s=sumarize, h=human
 
 
 zip fuse filesystem
@@ -40,7 +38,7 @@ extract verbose file bzip2:         tar xvfj etc-buckup.tar.bz2         # c=crea
 
 you can list all file inside tar without extaction by t option
 list verbose file zip:           tar tvfz etc-buckup.tar.gz
------------------------------------------------------------------------------
+---
 >Archiving
 tar refer to tape archive ; tape is a storage media before hard disk
 > make tar file:

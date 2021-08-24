@@ -273,34 +273,10 @@ Public key infrastructure is built on top of Public-key cryptography. The differ
 - Certificate Authority
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 I do not vouch for the security of elliptical curves over integer factorization over discrete logarithm calculations.
 
+------------------------------------------------------------------------------------------------------------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------------------
 Information Security (Info Sec)
 ===============================
 > Cryptography
@@ -319,7 +295,6 @@ the public key infrastructure relies on three critical logical entities called:
     investigate and to determine that an individual who claims to be Alice actually is Alice the Registration Authority will follow a set of public rules to determine what Alice has to do to prove her identity once the Registration Authority is satisfied as to Alice's identity he passes function to the certificate authority
 - Certificate Authority(CA)
 - Validation Authority(VA)
-
 
 
 Digital Certificate Request -> DigitalCertificate
@@ -436,19 +411,22 @@ Sign, check, encrypt or decrypt
 Default operation depends on the input data
 
 Commands:
- 
- -s, --sign                  make a signature
+---
+ -s, --sign                  make a signature -> <filename>.gpg = file + sign
      --clear-sign            make a clear text signature
- -b, --detach-sign           make a detached signature
+ -b, --detach-sign           make a detached signature -> <filename>.sig = sign only
+     --verify                verify a signature
+---
  -e, --encrypt               encrypt data
  -c, --symmetric             encryption only with symmetric cipher
  -d, --decrypt               decrypt data (default)
-     --verify                verify a signature
+---
  -k, --list-keys             list keys
      --list-signatures       list keys and signatures
      --check-signatures      list and check key signatures
      --fingerprint           list keys and fingerprints
  -K, --list-secret-keys      list secret keys
+---
      --generate-key          generate a new key pair
      --quick-generate-key    quickly generate a new key pair
      --quick-add-uid         quickly add a new user-id
@@ -470,6 +448,7 @@ Commands:
      --search-keys           search for keys on a keyserver
      --refresh-keys          update all keys from a keyserver
      --import                import/merge keys
+---
      --card-status           print the card status
      --edit-card             change data on a card
      --change-pin            change a card's PIN

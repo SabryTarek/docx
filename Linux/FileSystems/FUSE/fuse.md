@@ -1,14 +1,6 @@
-fuse (file system)
-
-
- fuse is this cool kernel module that
-plays a role as an abstraction layer
-between privileged kernel code and the
-rest of user space that's what it's for
-and it's been in the kernel itself since
-- 614 which I think got released on
-October 28th of 2005 so it's pretty
-stable
+fuse (userspace filesystem)
+===
+fuse is this cool kernel module that plays a role as an abstraction layer between privileged kernel code and the rest of user space that's what it's for and it's been in the kernel itself since 614 which I think got released on October 28th of 2005 so it's pretty stable
 
 
 
@@ -22,6 +14,10 @@ cat /proc/modules | grep fuse
 modprobe add fuse
 
 
+fuser
+fusermount
+
+
 apt install fuse
     - fuse
     - libfuse2
@@ -33,7 +29,7 @@ cat /proc/mounts
 fuse type:
     - network
     - stackable
-------------------------------------------------------------------------------------------------------
+---
 
 how to use fuse in docker container
 
@@ -44,7 +40,7 @@ docker run -d --rm \
 
       
 ## Ref: https://stackoverflow.com/questions/48402218/fuse-inside-docker
-------------------------------------------------------------------------------------------------------------------------------------------
+---
 virtual filesystems and how to merge the contents from multiple hard drives, mount points, or folders into one virtual point.
 
 

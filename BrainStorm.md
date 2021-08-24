@@ -1,18 +1,5 @@
 Brainstorm
 ===========
-
------------------------------------------------------------------------------------------------
-- to access this file or directory you should enter a paasword ?? firewall  >> encrtpt program like truecrypt and ...
-- R.C -> [to small, to capital, to camel case, to pascal case, to english, to arabic] program
-- make internet quta like disk quta ->  
------------------------------------------------------------------------------------------------
-Ask at Telegram Group:
-- clipboard Terminal-based app
-- 
------------------------------------------------------------------------------------------------
-
-
-
 => what is the difference between .cpp and.cbp
 
 just connect the same way he did, just remember that the standard password in xampp is an empty string whereas in mamp or lamp it's set to 'root'. also, I still dont know why but I think the phpmyadmin interface runs on the apache server, cant get it to work without it running either
@@ -35,7 +22,7 @@ Adam Jedlička
 1 year ago (edited)
 24:30 - line 87 - that's a nice candidate for SQL injection :)﻿
 
-18
+
 
 
 KACPER ROGOZ 5491 2019
@@ -43,7 +30,7 @@ KACPER ROGOZ 5491 2019
 1 year ago
 Hey, can you explain why that is? Thanks.﻿
 
-2
+
 
 
 Adam Jedlička
@@ -51,7 +38,7 @@ Adam Jedlička
 1 year ago (edited)
 He is concatenating SQL query with string he receives from user request. So if user in that requests sends malicious SQL query it will get executed. This vulnerability basically allows you (as a hacker) to do anything with target database.﻿
 
-5
+
 
 
 dragonattack46
@@ -96,13 +83,9 @@ your right this does display how the mysql driver doesnt really care about the t
 
 Shared hosting
 
-FYI = For Your Information
 FYI, real name for your "arrow function" is "delegate" IN C#
 
 - templates -> use it for dynamic content instead of cgi scripts
-
-- html5point converter to make the pptx into html page
-
 
 
 
@@ -120,67 +103,26 @@ You should note that a lot of sass libraries are dead now because of PostCSS/Aut
 
 
 
-
-
-
-fontweight -> degree of font light
-
-
 Cluster type "depend on nodes type":
 - Bare Metal Cluster
 - VM Cluster
 - Container Cluster
-
 
 then you install a container
 orchestration engine on top of that
 
 containerized workload
 
-
-
-
-
-
-floating Terminal
-transparent Terminal
-
-
 immutable infrastructure
 - solarized colorscheme
 
 
 
-- font-manager
-- filelight
-
-
-
-fuser
-
---------------------------------------------------------------------------------------------------------------------------------------------------------
-
 - Google services
 - comine multipule WIFI Connections || comine multipule WIFI Connections with Ethernet
-
-
-FOSS: Free Open Source Software
-FLOSS: Free Liberal Open Source Software
 
 
 
 - open source summit
 - embedded systems conferance europe
 - [bootlin](https://bootlin.com/)
-
-
-
-
-
-
-
-
-
-
------------------------------------------------------------------------------
-

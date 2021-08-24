@@ -42,7 +42,7 @@ docker run -> create a container
 
 
 docker run -it -h server --name=node -u sabry -v /home/src:/home/src -p 3000:3000 node
---------------------------------------------------------------------------------------------
+---
 
  Docker Container
  =================
@@ -91,7 +91,7 @@ docker search coreos -> search in docker hub
 
 
 
---------------------------------------------------------------------------------------------
+---
 
  Docker Volume
  ==============
@@ -122,7 +122,7 @@ docker search coreos -> search in docker hub
 * HOST_PATH and CONTAINER_PATH can be a folder or file. HOST_PATH must exist before running this command
 
 
---------------------------------------------------------------------------------------------
+---
 
  Docker Image
  =============
@@ -157,7 +157,7 @@ Notice that several lines of the output say Layer already exists. This is becaus
 
 
 
---------------------------------------------------------------------------------------------
+---
 
  Docker Network
  ===============
@@ -201,7 +201,7 @@ The bridge network is the default network for new containers. This means that un
 
 
 
---------------------------------------------------------------------------------------------
+---
 
  Dockerfile            -> in development
  ===========
@@ -258,7 +258,7 @@ ex :-
 
 
 
---------------------------------------------------------------------------------------------
+---
 
 
 
@@ -405,7 +405,7 @@ let's deep dive into Cooper Nettie's
 
 الفكرة أن تويتر كتبت ميزوس وفتحت مصدره لكبديل مفتوح المصدر للبروغ. فردت غوغل بإطلاق كوبرنتيس
 
---------------------------------------------------------------------------------------------
+---
 
  docker-compose                -> in production
  ===============
@@ -417,7 +417,7 @@ let's deep dive into Cooper Nettie's
 
 
 
---------------------------------------------------------------------------------------------
+---
 
  Docker Services
  ===============
@@ -490,7 +490,7 @@ Docker performs an in-place update, no need to tear the stack down first or kill
 - Note: Compose files like this are used to define applications with Docker, and can be uploaded to cloud providers using Docker Cloud, or on any hardware or cloud provider you choose with Docker Enterprise Edition.
 
 
---------------------------------------------------------------------------------------------
+---
  Docker Swarm
  =============
 -  swarm: is a group of machines that are running Docker and joined into a cluster. After that has happened, you continue to run the Docker commands you’re used to, but now they are executed on a cluster
@@ -534,7 +534,7 @@ To add a manager to this swarm, run 'docker swarm join-token manager' and follow
 
 
 
---------------------------------------------------------------------------------------------
+---
 
 
 
@@ -550,7 +550,7 @@ To add a manager to this swarm, run 'docker swarm join-token manager' and follow
 
 - Node.js with SQL Server on Docker
 
---------------------------------------------------------------------------------------------
+---
 
 
 
@@ -788,7 +788,7 @@ Docker-Compose
 - docker-compose down --volumes
 
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 version: '3'
 services:
@@ -806,7 +806,7 @@ services:
 volumes:
   logvolume01: {}
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 - Local Docker Engine
@@ -818,7 +818,7 @@ volumes:
 - sudo curl -L https://raw.githubusercontent.com/docker/compose/1.23.2/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose
 
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 Compose has commands for managing the whole lifecycle of your application:
 
@@ -827,7 +827,7 @@ View the status of running services
 Stream the log output of running services
 Run a one-off command on a service
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 
@@ -873,18 +873,18 @@ docker-compose -f docker-compose.json up
 Dockerfile directives:
 - 
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+---
 > Compose file format:
 - 1
 - 2
 - 2.x
 - 3.x
----------------------------------------------------------------------------------------------------------------------------------------------------
+---
 docker-compose directives:
 - 
 - 
 - 
----------------------------------------------------------------------------------------------------------------------------------------------------
+---
 > docker-compose command-line:
 - up
 - down
@@ -920,54 +920,15 @@ Docker runtime and cloud-init
 
 
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+---
 > Common use cases:
 - Development environments
 - Automated testing environments
 - Single host deployments
----------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-- Apple Siri
-- Sumsong Pixby
-- Google Assistant
-  - Android
-  - IOS
-  - smartwatches
-  - Google Home
-      - Google Home Mini
-      - Google Home Max
-  - Android TVs
-- Amazon Alexa
-  - Amazon Echo Dot
-
-
+---
 
 docker run -it -h server --name=node -u sabry -v /home/src:/home/src -p 3000:3000 node
 docker run -it -h tux --name ubuntu  -v /home/src:/home/src -p 3000:3000 ubuntu
-
-
-
-
-personal voice assistant
-[actions](https://developers.google.com/assistant) is the central platform for developing Google Assistant applications
-work with a number of human-computer interaction suites, which simplifies conversational app development. Out of all the platforms, the most popular is Dialogflow, which uses an underlying machine learning (ML) and natural language understanding (NLU) schema to build rich Assistant applications.
-https://console.actions.google.com
-
-
-1 million+ actions available suit a wide range of voice command needs
-
-[Google Assistant](https://assistant.google.com/) is offered on Android and iOS, but it can even be integrated with other devices like smartwatches, Google Homes, and Android TVs.
-
-
-
-https://cloud.google.com/training/courses
-https://cloud.google.com/certification/
-
-
-
-
-
 
 [Docker Officia Site](https://docker.com/)
 ================================
@@ -980,7 +941,7 @@ https://cloud.google.com/certification/
 
 #docker.io redirect to docker.com
 
-------------------------------------------------------------------------------------------------------------------
+-------------------------
 > get started:
 	- Downoad Docker
 		- https://hub.docker.com/?overlay=onboarding
@@ -992,7 +953,7 @@ https://cloud.google.com/certification/
 		- Community Training =>https://docs.docker.com/get-started/resources/
 		- Join Our Global Community => https://www.docker.com/docker-community
 	- https://hub.docker.com/
-------------------------------------------------------------------------------------------------------------------
+-------------------------
 
 
 https://github.com/docker/

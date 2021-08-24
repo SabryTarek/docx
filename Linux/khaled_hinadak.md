@@ -13,7 +13,6 @@ two process call each other:
 - network
 
 
-for idx in {1..10}; do echo sleeping | sleep 5; done &
 
 ------------------------------------------------------------------------------------------
 ip -> bind

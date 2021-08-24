@@ -5,7 +5,7 @@ vagrant
     - validate
     - up    -> 
     - ssh
-        - -c "lsblk"
+        - -c "ls -lah"
     - rdp
     - sudpend -> sleep
     - resume

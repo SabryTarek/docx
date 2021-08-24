@@ -1,3 +1,251 @@
+Cyber Security
+===
+[cybertalents](cybertalents.com)
+---
+### code-injection
+- in some cases it  leads to fully compromise the application and all its data.
+---
+### [Morse code](https://morsecode.world/)
+
+- telecommunication VS communication
+- sometimes you will find the text only have 3 words and it keeps repeating.
+- the difference is in the time of the signal.
+- the dash is much longer in time than dot,the silence represent space.
+- note : the standard  morse code  works only for the uppercase english letters and numbers.
+
+
+
+https://hubchallenges.s3-eu-west-1.amazonaws.com/Crypto/morse.wav
+---
+### Cross-Site Scripting (XSS) === HTML injection
+- relies on the client side
+---
+###
+- CTF stands for Capture The Flag,This is a type of cybersecurity competitions or games with a purpose to locate a particular piece of text called a flag that may be on the server or behind a web page.Capture The Flag (CTF) competition is simulating the real world scenarios of hacking a remote site or exploiting a vulnerability on a specific application. There are two common types of CTFs:  Jeopardy and Attack-Defence
+  - Challenge types
+    * Jeopardy CTF type includes problems (challenges) like web, digital forensics, reverse engineering and others. Teams or individuals will gain points for any correct challenge they solve. Points are defined depending on challenges difficulty, challenges labeled as hard will help you to gain more points.
+      - Cryptography - This type of challenges include understanding the different encryption algorithms
+      - Digital Forensics - This type of challenges include file format analysis, steganography, memory dump analysis, or network packet capture analysis.
+      - Reverse Engineering - This type of challenges include the process of taking compiled code like .exe files or .apk or others and trying to convert it back into a more human readable format.
+      - Web Security - This type of challenges include discovering vulnerabilities in web applications.
+      - Exploitation - This type of challenges include exploiting a service to find the flag, the reverse engineering techniques are also applied here in order to analyse the structure and behaviours of the binaries 
+      - Network Security - This type of challenges include analysing traffic data like pcap files and others.
+      - Open Source Cyber Intelligence - This type of challenges include using open source tools to gather information.
+    * Attack-Defence
+      - Here each team has its network of insecure devices (or just one host). Your staff typically has time to repair the infrastructure, and to fix vulnerabilities.So you will defend your own services for defence points , and hack opponents for getting attack points.
+
+---
+
+InfoSec VS CyberSec
+---
+### Intro to Web Security
+
+* Jobs for web security 
+  - Application Penetration Tester
+  - Bug bounty hunter
+  - Application Security Administrator
+  - Source Code Auditor
+  - Mobile Security Engineer
+
+cyber security conference that run in August every year in Las Vegas,  the largest gathering for Hackers in the whole world,  No Credit cards, no online booking , Only Cash allowed . Who am I ?
+
+
+For any info-sec field, you must have good knowledge about Network, Programming, OS, Databases
+
+You might not need to write code in some types of challenges but at least you need to know how to read code and understand it
+---
+
+---
+### HTML
+True or False , htmlentities (convert special characters to its html entity ) can't be exploited to run XSS payload ?
+
+
+---
+
+---
+### introduction-to-cryptography
+
+- Confidentiality + Integrity + Authenticity = CIA
+- CIA: is a model designed to guide policies for information security within an organization
+- hashing algorithms VS message digests.
+
+---
+
+---
+### 28-hash-cracking
+
+```
+import hashlib
+
+hash_to_be_cracked = 'f899139df5e1059396431415e770c6dd'
+
+i = 0
+
+plain_value = ''
+
+while 1 :
+    
+ hash_to_compaire = hashlib.md5(str(i)).hexdigest()
+
+ if hash_to_compaire == hash_to_be_cracked :
+
+     plain_value = str(i)
+     break
+
+ i += 1
+
+print plain_value
+```
+* the code is equvilant to:
+  - hashcat -a 0 -m 3 f899139df5e1059396431415e770c6dd
+
+- [Wordlist](https://www.kaggle.com/wjburns/common-password-list-rockyoutxt)
+- [john the ripper](https://www.openwall.com/john/)
+  - john --wordlist=/path_to_rockyou/rockyou.txt the_file_conatins_the_hash --format=Raw-SHA256
+    - you can use --show option to show the hash again without passing 
+
+throw cracking process 
+---
+
+---
+###
+Forensics -> Process of analyzing and investing computer devices, on suspecting that such devices may have been used in a cybercrime
+
+
+---
+
+---
+### 21-netcat
+- Netcat is a utility that is able to write and read data across TCP and UDP network connections.
+- Netcat can be used as port scanner, a backdoor, a port redirector, a port listener and lots of other cool things too.
+---
+
+---
+### 10-directory-traversal
+- web vulnerability that aims to access data stored outside the web application root folder .This vulnerability can allow an attacker to even access the source code of the application.
+### How To Test 
+
+
+1. find all parts of the application that accept content from the user. e.g. HTTP GET , POST queries , file uploads and HTML forms.
+
+Each operating system uses different path separator:
+
+* UNIX :
+  - root path : "/"
+  - Path separator: "/"
+* Windows OS:
+  - root path : ":\"
+  - Path separator: "" or "/"
+* Mac OS : 
+  - root path: ":"
+  - Path separator: ":"
+---
+
+---
+### 8-obfuscation
+- obfuscation: Change code from one form to another to prevent attacker from understanding it
+- reasons why you may use obfuscation , here are some of them:
+  - Prevent others from stealing your code 
+  - Avoid attackers understanding the script functionalities and abusing it.
+  - Bypassing WAFs(Web application firewall) and security detection system from filtering or detecting your payloads .
+- There are several obfuscation methods hence that there are many tools for it.
+
+- obfuscation & Deobfuscation
+- JS obfuscation tools:
+  - minify
+    - remove spaces
+    - usually developers use this method as it reduces script file size.
+  - [JSF](http://www.jsfuck.com/) -> JS script with just six characters []()!+
+  - [Packer obfuscation](https://www.cleancss.com/javascript-obfuscate/index.php) -> all script text and symbols will be stored in a list or dictionary and will be resorted and rebuilded again during the execution process .
+  - [obfuscator](https://obfuscator.io/)
+  - [examples of difficult obfuscation methods](https://aem1k.com/)
+- JS deobfuscation Tools:
+  - [JStillery](https://mindedsecurity.github.io/jstillery/) -> performs advanced JS deobfuscation via partial evaluation.
+  - [deobfuscate javascript](http://deobfuscatejavascript.com/)
+  - [Beautifier.io](https://beautifier.io/)
+---
+
+---
+### 17-meta-data
+
+---
+
+---
+### Wireshark
+
+---
+
+
+---
+### 22
+---
+
+---
+### javascript
+
+
+
+---
+
+---
+### What is []
+### How To Test
+### Tools
+
+---
+I act as a middle man to forward requests from different devices to access external resources . I am a ......?
+---
+###
+
+---
+
+---
+
+
+---
+flag{773F4160||}
+0027144B
+---
+###
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 attack types:
 - Dictionary Attack=Wordlist attack==straight mode

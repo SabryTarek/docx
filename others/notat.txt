@@ -7,16 +7,7 @@ pixel art
 pixel art animation
 move animation from toom boom to unity
 
-Linphone
-wire
-ring
-Mumble
-Asterisk 
-Twinkle
-3CX
-cipc
-zipper
-hand brake
+
 
 
 ممكن تستخدم Couchbase والدوكيمنت بتاعتهم كويسه ، او ممكن تستخدم google architecture components هما عاملين شرح كتيير للموضوع ده وعاملين مكتبه room لقواعد البيانات جميله جدا ، ممكن تذاكرهم من دوكيمينتيشن بردو
@@ -38,7 +29,7 @@ CTFTime.org
 sudo dnf install arc-theme
 https://copr.fedorainfracloud.org/coprs/heikoada/gtk-themes/
 
-shearch for Mahmoud Khalid in security test group
+search for Mahmoud Khalid in security test group
 
 
 
@@ -50,7 +41,6 @@ shearch for Mahmoud Khalid in security test group
 وهتستخدم service workers عشان تعمل cache للداتا عشان لما تبقي offline
 
 
-windscribe.com
 
 Reverse ip
 
@@ -60,7 +50,7 @@ Reverse ip
 
 
 
-
+---
 ده بوست ، المهندس محمد عاطف اللي كتبه مجمع فيه الموضوع كويس ممكن يكون مفيد problem solving 
 
 السلام عليكم الناس الي مش عارفه ايه موضوع ال problem solving يركزوا هنا :)
@@ -101,7 +91,7 @@ Reverse ip
 تاني حاجه تدخل علي الموقع ده
 ‏https://www.urionlinejudge.com.br/judge/en/login
 وتحل اول ١٢٠ مساله في ال beginners دول هيخلوا مستواك في الاساسيات كويس جدا وهيخليك تتقن كل حاجه في اللغه الي انت اخت
-
+---
 
 
 
@@ -120,5 +110,3 @@ Reverse ip
 
 
 
-
-لو محتاج كتب تحوي تفاصيل تقنية وكيفية العمل يعني how-to ستجد عنوان الكتاب بلاحقة cookbook او straight to the point بلاحقة handbook على سبيل المثال Linux cookbook او مثال واقعي ك The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations

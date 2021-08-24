@@ -7,3 +7,10 @@ https://azure.microsoft.com/
 https://login.live.com/
 https://portal.azure.com/
 https://login.microsoftonline.com/
+
+
+
+- portal (Azure GUI)
+- 200 USD for 30 days
+- arm (azure resource manager) template IAC for Azure only
+- azure cloud shell (Azure cli) az -> az account list

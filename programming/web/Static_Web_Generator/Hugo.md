@@ -1,6 +1,6 @@
 [Hugo](https://gohugo.io/)
 ==========================
-
+[docker image](https://hub.docker.com/r/klakegg/hugo/)
 
 hugo is the main command, used to build your Hugo site.
 
@@ -97,22 +97,10 @@ Hugo extreamy fast
 
 
 CMS
-wordpres
-wix
-square space
+  - wordpres
+  - wix
+  - square space
 
-
-
-tree
-ptree
-
-ls
-lsblk
-lsmod
-
-kill
-pkill
-xkill
 
 
 

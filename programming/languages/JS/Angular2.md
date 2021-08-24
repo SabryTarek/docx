@@ -1,3 +1,6 @@
+Angular
+===
+
 componants -> v
 componants: templates (view in MVC)#html + classes (controller(methods) + model(data) in MVC)    //maybe service(model)
 module: some componants linked with others

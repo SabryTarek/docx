@@ -17,94 +17,11 @@ pre-built images
 
 
 
-
 [[supported - binding] languages](https://www.libsdl.org/languages.php)
 
 
 
 
-
-
-01- Introduction to C :
-Why C in embedded - C Program structure - Compiling a C program - Type of errors in C
-
-02- Primary Data Types:
-Variables – Types - Variable declarations and definitions – Constants - Qualifiers
-
-03- Inputs and Outputs functions:
-printf - Escape sequence characters – Specifiers - scanf
-
-04- Arithmetic in C:
-Arithmetic operators - Type conversion - Operator precedence
-
-05- Decision Making:
-Program execution flow chart - Relational operators - Logical operators – Branching ( if - switch ) – Looping (for – while – do – goto) – break/continue words - Conditional operator
-
-06- Functions:
-Function declaration and definition – Arguments – return - Calling by value / reference – Recursion – Macros
-
-07- Scope Rules:
-Scope – Local / Global variables
-
-08- Memory Layout:
-Code / initialized data / uninitialized data / heap / stack segments
-
-09- Storage classes:
-auto - register – extern – static
-
-10- Building Larger Program:
-Module - Header file - Multi-module project – preprocessors
-
-11- Arrays:
-Creating / initializing / using Array – String – Multi-dimensional array - Passing an array to a function - Returning an array from a function
-
-12- Pointers:
-Introduction to pointers – Syntax – Assigning values by using a pointer - Pointers and arrays - Pointer arithmetic - Substituting pointers for array notation - Pointers and strings - Array of pointers - Passing pointers to functions - Returning a pointer from a function
-
-13- Structures:
-Structure definition - Declaring a structure variable - Initialize structure members - Accessing structure members – typedef - Nesting structures - Arrays of structures - Passing structures to a function - Pointer to a structure
-
-14- Unions:
-Difference between union and structure - Creating / using union
-
-15- Enumeration:
-Creating / using enumeration
-
-16- Bit Fields:
-Creating / using bit fields
-
-17- Memory Management:
-malloc - calloc – realloc - free
-
-18- Bit Manipulation:
-Bitwise operators - Setting / Clearing / Toggling a bit - Getting the value of a bit
-
-19- Common Arithmetic functions:
-abs – floor – ceil – round – rand – srand
-
-20- Manipulating String :
-strlen – strcpy – strcat – strcmp
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-
-- <stdio.h> #standard input/output
-    - printf
-    - scanf
-    - puts
-    - gets
-- <stdlib.h> #standard library
-- <conio.h> #console input/output
-- <string.h> #contain [str* - mem*]functions
-    - strlen()
-    - strcpy()
-    - strcat()
-    - strcmp()
-
-    - itoa()
-    - atoi()
-- <math.h>
-- <time.h>
-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 color *bacground*
@@ -176,7 +93,6 @@ int main(int argc, char argv[]) {
 
 
 
-lisp is linkedlist
 
 
 

@@ -115,6 +115,10 @@ HTML5 = New HTML Tages + New Javascript APIs
 
 
 
+- Redux DevTools
+- React Developer tool
+- https://learnredux.com/
+- https://learnreact.com/
 
 
 

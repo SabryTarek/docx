@@ -242,29 +242,5 @@ Farisology](https://www.youtube.com/channel/UCe2_Z7UrjYngN110gDyttiQ)
 
 - [mlcourse.ai](https://mlcourse.ai/)
 - [fast.ai](https://fast.ai/)
-- HDF5
-- 
-
-- ScikitLearn
-- TensorFlow
-- Keras
-- PyTourch
 
 
-
-
-- NLP
-    - Python:
-        - NLTK
-- Web_Scrapping
-    - Python:
-        - Beautiful_Soup
-        - Scrapy
-    - JavaScript:
-        - Puputeer
-- Visualization
-    - Python:
-        - Matplotlib
-    - JavaScript:
-        - D3.js
-        - Charts.js

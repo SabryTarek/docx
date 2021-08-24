@@ -1,5 +1,6 @@
-Laravel
-========
+[Laravel](https://laravel.com/)
+===
+
 route: 
 - Routing:
     - routes/web.php -> assigned the web middleware group
@@ -250,9 +251,8 @@ Relation between tables in  database
 
 
 ------------------------------------------------------------------------------------
-Laravel Arabic Recources
-========================
-* video:
+## Laravel Arabic Recources
+### video:
 - 5dmat web
 - Mohammed Essa 
 - New Baghdad
@@ -267,7 +267,7 @@ Laravel Arabic Recources
 - IQ TECH
 
 
-* artical
+### artical
 - hasoub
 	- العيل
 - code box
@@ -275,22 +275,19 @@ Laravel Arabic Recources
 - Khalid elshafie
 - ali hamdi
 
-Laravel English Recources
-==========================
+## Laravel English Recources
+
 - laracast
 - traversy media
+- https://laravel-news.com/
 
 
+## Laravel libraries
 
-Laravel libraries
-===================
 - faker -> fake data
 - tinker -> laravel shell
 
 
-
-Laravel libraries
-===================
 - MVC
 - Front Controller & Routing
 -php artisan
@@ -303,7 +300,7 @@ Laravel libraries
 
 ----------------------------------------------------------------------------------------------
 Files Structure
-================
+
 
 Files Structure must upload to the server
 ==========================================
@@ -327,3 +324,8 @@ files:
 
 
 - test layers
+
+### The Laravel Ecosystem
+
+
+

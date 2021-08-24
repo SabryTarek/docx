@@ -32,6 +32,9 @@ clists.by
 
 cscompete.com
 
+https://code.google.com/codejam/
+https://www.ieee.org/membership/students/competitions/xtreme/
+https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=593476609
 
 * Online Judages:
     - leetcode
@@ -39,6 +42,7 @@ cscompete.com
     - hackerearth
     - UVA
     - Spoj
+    - a2oj
     - codewars
     - CS Academy
     - hackerranck

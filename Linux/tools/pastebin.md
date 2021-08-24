@@ -1,9 +1,13 @@
-fpaste
-=======
-- fpaste foo.txt
-- ls -la | fpaste
+pastebin
+===
 
-* --title (-t)
-* --password (-d)
-* 
+* fpaste
+    - fpaste foo.txt
+    - ls -la | fpaste
 
+    * --title (-t)
+    * --password (-d)
+    * 
+* textb.org
+* xi.io
+* termbin

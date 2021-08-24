@@ -4,15 +4,18 @@ Database
 - NoSQL (NON-Relational)
 - NewSQL
 - Time Series Dataase (TSDB)
-
--------------------------------------------------------------------------------------------------------------
+---
+- Structured Data -> Database
+- semi-Structured Data -> JSON
+- unStructured Data -> text, image, ...
+---
 - SQL
 	- MySQL = MariaDB
 	- MS SQL Server (Microsoft)
 	- [SQLite & SQLite3](./Relational/SQLlite3.md)
 	- PostgreSQL
 	- PL-SQL (Oracle)
--------------------------------------------------------------------------------------------------------------
+---
 - NoSQL (No-Relational)
 - Document:
 	- MonogoDB
@@ -27,11 +30,11 @@ Database
 - Graph(Node, Relationship):
 	- Neo4J
 	- flockDB
--------------------------------------------------------------------------------------------------------------
+---
 - Time Series Dataase (TSDB)
 	- influx
 	- premetuse
--------------------------------------------------------------------------------------------------------------
+---
 
 - SQL: Structure Query Language
 - Structured vs Semi Structured
@@ -47,7 +50,7 @@ Database
 
 التطبيقات التي من الممكن استخدام الـNOSQL بها، يفضل ان لا تعتدم على الكثير من الQuery.
 مثلا، تطبيق لاضافة المقالات والتعليقات بحيث يكون الغرض منه عرض واضافة المقالات بشكل سريع، دون الحاجه للاستعلام عن المستخدمين ومواضيعهم او المستخدمين النشطين و…. الخ
--------------------------------------------------------------------------------------------------------------
+---
 
 - Horizintal Scaling (scall-up)
 - Vertical Scaling (scall-out)
@@ -62,7 +65,7 @@ relation desn't stored in database but happen in runtime (quary) which put a hea
 قواعد البيانات NOSQL تحت اسم Mongo DB
 تم تطوير قواعد البيانات NOSQL للتغلب على بعض القصور الموجود في قواعد بيانات SQL أثناء عملية التوسع (Scaling) والتعامل مع البيانات الضخمة.
 حيث ان قواعد البيانات NOSQL تفضل الإستغناء عن مبدأ الـ Consistency (ببساطة هو جعل البيانات متشابهة تماماً في جميع نسخ قواعد البيانات المنتشرة على خوادم مختلفة) مقابل الحصول على أداء عالي وجعل البيانات متاحة في جميع الأوقات (Performance and Availability).
--------------------------------------------------------------------------------------------------------------
+---
 sqldump -u root -p database_name > database.sql;
 sql -u root -p database_name < database.sql;
 
@@ -72,3 +75,13 @@ grant all on *.* 'user'@'hostname' identefid 'password'
 *.* -> database.table
 
 -------------------------------------------------------------------------------------------------------------
+Data Base Managment System(DBMS)
+Entity Framework
+	- enhancement for ADO.NET
+Oracle DataBase (ODB)
+
+
+- Indexing
+- Triggers
+- ORM
+- ODM

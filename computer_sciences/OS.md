@@ -166,3 +166,46 @@ mkdir P1-L1 P1-L2 P2-L1 P2-L2 P2-L3 Problem-set-1 P2-L4 P2-L5 sample-midterm-que
 
 - make memory dump for spacifice process and spacific  program
 - create process from [syscall command | evert thing is a file | syscall c code ]
+
+
+
+---
+History of Oprating Systems
+===
+
+---
+(there are some Oprating Systems aready but evey oprating system do one or two functionlity only[1])[50s -60s] -> Multics[64-69] -> UNIX[69-73] -> 6th Ed[75] -> 7th Ed[79] -> sys III[81] -> sys V[83] -> [HP-UX - IBM-AIX - Solaris]
+---
+[1] sometimes companies that supply computer to other companies distribute machine with multiple OSs
+---
+### Multics
+- last multics machine down at october 2000 at canada.
+- consertian from = MIT[spacifications] + AT&T Bell Labs[Impementation] + general Electric[Computer Supplier]
+- Project sponsers:
+    - DARPA Reasearch center of US Ministry of Defense
+* Multics Pros & Cons
+    + Pros
+        - Premature
+        - Pioneer
+            + Ring Protection
+            + 
+---
+OS did all it concepts at 60s
+---
+---
+---
+---
+* OS Functionaities and Catigroies
+- Single user VS Multi User
+- Single Tasking VS Multi Tasking
+- Time sharing
+- Batching Processsing VS
+- Real Time VS
+---
+Human Opration -> system to automate oprations
+---
+---
+- if unix is the father of oprating systems then multics is ther gradfathre of oprating systems
+---
+minix
+---

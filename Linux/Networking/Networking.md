@@ -2,27 +2,27 @@ Networking
 ==========
 Computer Networking is one of Telecommunication Science branches
 
---------------------------------------------------------------------------------
+---
 > network types:
     - pubic network
     - private network
     - virtual private network
---------------------------------------------------------------------------------
+---
 network configurations:
 
 ip :-
     - ifconfig
     - ip a s (ip adress show)
     - hostname -i
---------------------------------------------------------------------------------
+---
 - ifconfig eth down
 - ifconfig eth start
---------------------------------------------------------------------------------
+---
 router
 switch
 
 
---------------------------------------------------------------------------------
+---
 DNS
 ====
 
@@ -47,14 +47,14 @@ Preferred DNS (Primary server) (any change in DNS Records happen on it): 199.85.
 Alternate DNS (Sacandary server) (replica from Primary): 199.85.127.20
 
 DNS Make loadbalancer form one Primary server and many Sacandary server
---------------------------------------------------------------------------------
+---
 NAT "Network Address Translation "
 ===================================
 types:
 - Static
 - Dynamic
 - Overloading
---------------------------------------------------------------------------------
+---
 ip types:
 - internal ip -> local network
 - external ip -> enternet
@@ -62,16 +62,21 @@ ip types:
 - private ip
 - static ip
 - dynamic ip
---------------------------------------------------------------------------------
-portal (Azure GUI)
-200 USD for 30 days
-arm (azure resource manager) template IAC for Azure only
-azure cloud shell (Azure cli) az -> az account list
+---
+- forward lookup
+- (revese - backward) lookup
 
 
-GCP
-300$ for 1 year
---------------------------------------------------------------------------------
+
+globle server load balancer(GSLB)
+
+
+
+host
+host -t (mx - ns -fsp - txt)
+nlookup
+dig
+---
 Vault solve different three challenges
 vault and secrets
 
@@ -81,9 +86,9 @@ secret management
 - database credentials
 - api tokkens
 - TLS SSL certificates
---------------------------------------------------------------------------------
+---
 
---------------------------------------------------------------------------------
+---
 Linux used to build all networks systems such as firewalls, Routers, DNS, NAS Network "Attached Storage"
 
 
@@ -111,11 +116,11 @@ EX: traceroute salshdot.org
 
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 nmcli (network manager command line interface)
 ==============================================
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 nmtui (network manager [terminal | text] user interface)
 ========================================================
 nmcli
@@ -143,7 +148,7 @@ network (bounding | teaming)
 
 power user = home user
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 IP V4
 =====
 8 byte === 2^32
@@ -171,7 +176,7 @@ NetworkID     Subnet Mask
     - subnet mask -> hosts
     - Default Gateway: IP address of my router (192.168.1.1)
 > classless
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 
 
 
