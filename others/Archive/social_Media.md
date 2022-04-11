@@ -13,26 +13,49 @@ Social Media
 - Youtube
   - Peertube
   - Dtube
+  - BitTube
   - open.tube
   - LBRY
     - LBRY.io
     - LBRY.tv
     - 
+
+
+    Local bitcoin
+    Passrhrough
 ------------------------------------------------------------------------------------------
 - Reddit: “The front page of the internet”
   - Raddle
   - dread
 ------------------------------------------------------------------------------------------
-
-- Linkedin
+- LinkedIn
 - stackexchange
   - stackoverflow SOF
 - Qoura
-- hackernews
-- 
+
+https://contribute.dev/
+- unhosted.org
+- remotestorage.io
+solidproject
+webfinger
+- hypercore-protocal
+catb.org
+pirate box
+pirate cash
+pirate win
+podsync
+access.redhat.com
+vyOS
+------------------------------------------------------------------------------------------
+
+- HackerNews
+- Lobste.rs
+- slashdot.org
+
 ------------------------------------------------------------------------------------------
 - slack
 - zulip
+- focalboard
 - mattermost
 - Rocket.chat
 ------------------------------------------------------------------------------------------
@@ -96,7 +119,6 @@ it's too bad JSON-LD is extremely slow
 - Google Hangout (GChat)
 - Dicord
 - SpeakTeam
-- Slack
 - Telegram
 - imo
 - Whatsapp
@@ -111,7 +133,7 @@ it's too bad JSON-LD is extremely slow
 
 
 - Matrix.org
-    - riot.im
+    - element.io (aka riot.im)
 
 #room:example.com, @user:example.com or +group:example.com
 
@@ -145,12 +167,21 @@ RSS using Feedly:
 ------------------------------------------------------------------------------------------
 ImageBoard:
 
-chan:
+* chan:
   - Lchan
   - 4chan
   - 8chan
   - 7chan
-  - lainchan
+  - lainchan.org
+  - minichan.org
+
+chan over Tor
+  onionchan
+  overchan
+
+http://allyour4nert7pkh.onion
+http://sfjdg275q2ash3jt.onion/
+http://oniot2zvfczp4lpc.onion/
 ------------------------------------------------------------------------------------------
 BBS
 Gopher Holes
@@ -163,13 +194,40 @@ FreeNet
 GNUnet
 NitroShare
 ------------------------------------------------------------------------------------------
-Recho chat
-signal
-wire
-barier
-Tox
+chatting:
+- Recho chat
+- signal
+- wire
+- barier
+- Tox
 ------------------------------------------------------------------------------------------
+free web shell:
+- sdf.org
+- hashabng.sh
+-
+------------------------------------------------------------------------------------------
+- Tildavere:
+  - tilda.club
+  - tilda.io
+  - tilda.news
+------------------------------------------------------------------------------------------
+- cyberspace
+- cyberculture
+- cyberpunk
 
+- no Ads
+- no tracking
+- no data collection
+
+
+
+finger
+- command
+- protocol
+
+
+~/.plan
+------------------------------------------------------------------------------------------
 
 
 community-based support channels:
@@ -192,6 +250,22 @@ community-based support channels:
 
 
 ----------------------------------------------------------------------------------------------
+free-for.dev
+cotribute.to
+----------------------------------------------------------------------------------------------
+all domain:
+  - .sh
+  - .xyz
+  - .ai
+  - .tech
+  - 
+
+
+- https://onemasterlink.com/
+- https://linktr.ee/
+- https://parseplatform.org/
+- https://appwrite.io/
+
 
 
 
@@ -246,22 +320,12 @@ bridge networks
 
 freenode one of the most popular IRC [channel - server - network]
 GNULinuxLovers channel
-
-
-
-
-
-
-
-
-
+------------------------------------------------------------------------------------------
 Terminal chat
 - ssh chat
 - write command
 - wall command
-
-
-
+------------------------------------------------------------------------------------------
 how to know:
 CPU
 Memory

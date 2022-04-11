@@ -10,3 +10,6 @@
 
 -  Common Development and Distribution License (CDDL) 1.0
 
+
+
+copyrights VS copy left

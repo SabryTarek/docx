@@ -1,15 +1,26 @@
 fonts
-=====
+===
 
 dnf install font-manager
 
-
+setfont 
 - system-wide: /usr/local/share/fonts/
-- spacfic-user: ~/.local/share/fonts/
+- specific-user: ~/.local/share/fonts/
 
 
 update fonts-db: fc-cache -f -v
 
 
+Font Concepts:
+- font weight: degree of font light
+- Font ligatures: typography term describe when two or more characters (or graphemes) are joined as a single glyph
+    For example, instead of: === you’ll get: Font Ligature Example
 
-dual boot
+
+
+
+- vconsole fonts path:
+- /usr/lib/kbd/consolefonts/
+- /usr/share/kbd/consolefonts/
+$ setfont <font_name>
+$ fc-list

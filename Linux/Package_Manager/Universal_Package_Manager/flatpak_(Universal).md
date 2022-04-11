@@ -19,3 +19,4 @@ flatpak
   - --unused
 - update
 -----------------------------------------------------------------
+flatpak install --from https://nuvola.tiliado.eu/eu.tiliado.NuvolaAppGoogleCalendar.flatpakref

@@ -33,6 +33,22 @@ su -> switch user
 /etc/<>.d/ -> user config
 
 
+-----------------------------------------------------------
+
+navigation utilites
+
+cd
+	autojump
+	z
+	pushd + popd +  dir
+	dirs
+
+ls
+	lsd
+	lxa
+	tree
+	broot
+-----------------------------------------------------------
 
 
 

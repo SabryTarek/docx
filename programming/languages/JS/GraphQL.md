@@ -185,3 +185,45 @@ GraphQL
 - Query: get request
 - Mutation: (post, put, delete) request
 - Sub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IntroSpection: ask GraphQL schema what quieries is support === what data is available there [checkboxes tha trepreset diffrant quieries you can make]
+
+
+
+
+query -> JASON PayLoad
+
+
+GraphQL Built-in Types:
+- String
+- Int
+
+
+* Custom Types:
+    - 
+
+
+# Type System
+
+
+
+
+
+the most popular way to work with graphQL from a front-end application is to use the Apollo client it's essentially a state management library that allows you to write graphQL queries then see the results automatically update in your UI Apollo has integrations for all the major JavaScript frameworks like angular react view etc including vanilla web components and also native platforms like iOS and Android
+
+
+
+Apollo GraphQL VSCode Ecxtention

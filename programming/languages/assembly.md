@@ -469,3 +469,6 @@ https://www.geeksforgeeks.org/c-asm-declaration/
 - https://www.youtube.com/playlist?list=PLan2CeTAw3pFOq5qc9urw8w7R-kvAT8Yb
 
 
+
+
+byte ordering which is often referred to as endianness

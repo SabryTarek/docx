@@ -1,4 +1,4 @@
-HotKey
+HotKey=KeyBindings(xbindkeys)=KeyChord(sxhkd)
 ======
 
 Hotkeys (Mouse, Joystick and Keyboard Shortcuts)
@@ -15,14 +15,17 @@ Hotkeys (Mouse, Joystick and Keyboard Shortcuts)
 
 
 
+-----------------------------------------------------------------------------
+
 key Binding
 - xbindkeys -> ~/.xbindkeysrc
 - xmodmap
 -
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
 sxhkd
-=====
+===
 
 sxhkd & in:
 - .xinitrc -> Window Manager
@@ -43,3 +46,16 @@ Mod6 -> Alt
 
 Return -> Enter
 
+-----------------------------------------------------------------------------
+
+
+xbindkeys -d > ~/.xbindkeysrc
+vim ~/.xbindkeysrc
+xbindkeys --key
+bind
+
+
+-----------------------------------------------------------------------------
+x11-utils
+	- xev -> keycode for OS
+		$ xev -event keyboard -> 38 is the key-code for the «a» letter.

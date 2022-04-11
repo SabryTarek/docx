@@ -26,3 +26,26 @@ C++
 uncle Bob
 - Clean Code Book
 - The Art of Computer Sciences
+
+
+
+
+Recommended Books
+
+- High performance web browser networking book
+- pattern reconision & Deep learning book for cristofer
+
+
+
+Conputer Sciences Public Figures:
+- دونالد كانوث
+
+
+
+### Books/Courses Name
+	Mastring *
+	* CookBook
+	* HandBook
+	* Bible
+	* from Zero to Hero
+	* Deep dive

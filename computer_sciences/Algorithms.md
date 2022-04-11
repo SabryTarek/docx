@@ -290,3 +290,58 @@ YouTube Channel: https://www.youtube.com/channel/UC9fDC_eBh9e_bogw87DbGKQ
 Competitive Programming Blog: http://rachitiitr.blogspot.com
 CodeForces: http://www.codeforces.com/profile/rachitjain
 CodeChef: http://www.codechef.com/users/rachitiitr
+
+
+
+
+
+
+when you need to look at your program algorithm ?
+- Using massive data
+
+
+factor in problem input
+
+
+
+fibonacci series Solutions
+- Itrative (loop) -> Faster
+- Recursive (Recursion function) -> Slower
+
+
+
+Daily-Use apps
+- Accurate
+- Fast
+
+
+
+25:30 diffrant problem during semster
+
+
+
+
+int f(int n) {
+
+int f[n+1],
+    f[0] = 0,
+    f[1] = 1;
+
+    for(int i=2; i<=n; i==) {
+	f[i] = f[i-1] + f[i=2];
+    }
+    return f[n];
+}
+
+
+int f(int n) {
+    if (n <= 1) {
+	return n;
+    } else {
+    return f[n-1] + f[n-2];
+    }
+}
+
+
+(base case) = transition
+Segmentation Fault (Infinite Loop)

@@ -2,6 +2,36 @@
 ===
 https://www.gnu.org/software/emacs/tour/index.html
 -----------------------------------------------------------------------------------------------------------------
+### History
+some history
+in __1976__ **guy Steele** published the first version of the emacs
+ which isn't really the what the same program we see today
+ but it's also ends up being the same year that **Bill Joe** introduces a VI into Berkeley UNIX, he is the author of Common Lisp bill joy being kind of responsible for BSD and a lot of what UNIX is now today
+and so different programs developed around the same time to do the same thing but in a very different way
+
+
+- gnu emacs which hasn't really changed since __1985__ was written by **Richard Stallman** and **James Gosling**
+- who and James Gosling is the creator of the Java programming language 
+
+- a lot of significant people involved in text editors developing
+-----------------------------------------------------------------------------------------------------------------
+### ed
+- line oriented text editor so called line editor
+- the standard text editor of UNIX
+- written in 1970
+- by **Ken Thompson**
+- designed before computers have screens
+- it was for teletypes which was basically a typewriter connected to a computer
+- so you really were not able to view all of this text like I can in the terminal window at once
+- full-screen text editor
+-----------------------------------------------------------------------------------------------------------------
+### readline
+- GNU Library to read line
+- readline keybindings are the same as Emacs keybindings
+-----------------------------------------------------------------------------------------------------------------
+
+
+- Emacs belongs to a family of text editors and this distinction is becoming less and less relevant
 > Modes:
 # every buffer take one Major Mode and many Minor Mode
 - Major Mode -> mode like vim [normal-visual]
@@ -143,10 +173,144 @@ Emacs Lisp
 U -> update repo
 package-install <name>
 -----------------------------------------------------------------------------------------------------------------
-spacemacs
-dooom
+pre-packaged configration system for emacs
+- spacemanx
+- doom
+	- doom-mode-line
+	- doom-themes
 
+### Emacs (starter kits) (Distributions) ()
+- [spacemacs](https://www.spacemacs.org/)
+- [dooom](https://github.com/hlissner/doom-emacs)
+- [Scimax](https://github.com/jkitchin/scimax)
+-----------------------------------------------------------------------------------------------------------------
+M-x org-timer-set-timer			===			C-c C-x ; inside any org-mode file buffer
+
+
+
+
+
+all Possible command completions are:
+	org-timer
+	org-timer-change-times-in-region 	
+	org-timer-item
+	org-timer-set-timer
+	org-timer-show-remaining-time
+	org-timer-start
+	org-timer-stop
+	org-timer-pause-or-continue
+
+
+-----------------------------------------------------------------------------------------------------------------
+emacs search fuzzy search swiper
+
+
+anytime you see a function that Emacs that ends with "-p" that is a like a predicate function it's basically a function that returns true or nil
+-----------------------------------------------------------------------------------------------------------------
+2 biggest selling points of emacs:
+- org-mode
+- emacs lisp
+-----------------------------------------------------------------------------------------------------------------
 
 http://emacs.sexy/
 http://terminal.sexy/
-http://nginx.config/
+http://nginx.config/Usage: emacs [OPTION-OR-FILENAME]...
+
+Run Emacs, the extensible, customizable, self-documenting real-time
+display editor.  The recommended way to start Emacs for normal editing
+is with no options at all.
+
+Run M-x info RET m emacs RET m emacs invocation RET inside Emacs to
+read the main documentation for these command-line arguments.
+
+Initialization options:
+
+--batch                     do not do interactive display; implies -q
+--chdir DIR                 change to directory DIR
+--daemon, --bg-daemon[=NAME] start a (named) server in the background
+--fg-daemon[=NAME]          start a (named) server in the foreground
+--debug-init                enable Emacs Lisp debugger for init file
+--display, -d DISPLAY       use X server DISPLAY
+--no-build-details          do not add build details such as time stamps
+--no-desktop                do not load a saved desktop
+--no-init-file, -q          load neither ~/.emacs nor default.el
+--no-loadup, -nl            do not load loadup.el into bare Emacs
+--no-site-file              do not load site-start.el
+--no-x-resources            do not load X resources
+--no-site-lisp, -nsl        do not add site-lisp directories to load-path
+--no-splash                 do not display a splash screen on startup
+--no-window-system, -nw     do not communicate with X, ignoring $DISPLAY
+--quick, -Q                 equivalent to:
+                              -q --no-site-file --no-site-lisp --no-splash
+                              --no-x-resources
+--script FILE               run FILE as an Emacs Lisp script
+--terminal, -t DEVICE       use DEVICE for terminal I/O
+--user, -u USER             load ~USER/.emacs instead of your own
+
+Action options:
+
+FILE                    visit FILE
++LINE                   go to line LINE in next FILE
++LINE:COLUMN            go to line LINE, column COLUMN, in next FILE
+--directory, -L DIR     prepend DIR to load-path (with :DIR, append DIR)
+--eval EXPR             evaluate Emacs Lisp expression EXPR
+--execute EXPR          evaluate Emacs Lisp expression EXPR
+--file FILE             visit FILE
+--find-file FILE        visit FILE
+--funcall, -f FUNC      call Emacs Lisp function FUNC with no arguments
+--insert FILE           insert contents of FILE into current buffer
+--kill                  exit without asking for confirmation
+--load, -l FILE         load Emacs Lisp FILE using the load function
+--visit FILE            visit FILE
+
+Display options:
+
+--background-color, -bg COLOR   window background color
+--basic-display, -D             disable many display features;
+                                  used for debugging Emacs
+--border-color, -bd COLOR       main border color
+--border-width, -bw WIDTH       width of main border
+--color, --color=MODE           override color mode for character terminals;
+                                  MODE defaults to `auto', and
+                                  can also be `never', `always',
+                                  or a mode name like `ansi8'
+--cursor-color, -cr COLOR       color of the Emacs cursor indicating point
+--font, -fn FONT                default font; must be fixed-width
+--foreground-color, -fg COLOR   window foreground color
+--fullheight, -fh               make the first frame high as the screen
+--fullscreen, -fs               make the first frame fullscreen
+--fullwidth, -fw                make the first frame wide as the screen
+--maximized, -mm                make the first frame maximized
+--geometry, -g GEOMETRY         window geometry
+--no-bitmap-icon, -nbi          do not use picture of gnu for Emacs icon
+--iconic                        start Emacs in iconified state
+--internal-border, -ib WIDTH    width between text and main border
+--line-spacing, -lsp PIXELS     additional space to put between lines
+--mouse-color, -ms COLOR        mouse cursor color in Emacs window
+--name NAME                     title for initial Emacs frame
+--no-blinking-cursor, -nbc      disable blinking cursor
+--reverse-video, -r, -rv        switch foreground and background
+--title, -T TITLE               title for initial Emacs frame
+--vertical-scroll-bars, -vb     enable vertical scroll bars
+--xrm XRESOURCES                set additional X resources
+--parent-id XID                 set parent window
+--help                          display this help and exit
+--version                       output version information and exit
+
+You can generally also specify long option names with a single -; for
+example, -batch as well as --batch.  You can use any unambiguous
+abbreviation for a --option.
+
+Various environment variables and window system resources also affect
+the operation of Emacs.  See the main documentation.
+
+Report bugs to bug-gnu-emacs@gnu.org.  First, please see the Bugs
+section of the Emacs manual or the file BUGS.
+
+
+org-mode
+- Major mode correspond to  files
+- file type .org
+- rendered by github -> you can write your readme file in orgmode
+org-agenda -> extention that use org-mode for task managment
+org-export -> generate PDFs

@@ -118,3 +118,4 @@ unikernel
 -  is VMs
 - single monolithic binary
 ---------------------------------------------------------------------------------------------------------------------------------------
+yum install kernel-devel-$(uname -r) kernel-headers-$(uname -r) = apt-get install linux-headers-$(uname -r)

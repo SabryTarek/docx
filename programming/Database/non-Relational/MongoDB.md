@@ -10,7 +10,7 @@ MonogoDB
 - if you use a database not exits mongo will create it for you
 - if you don't use(select) any database it will pointer to "test" database 
 - 
-
+main configration file path: --config /etc/mongod.conf
 
 
 - use <database_name>

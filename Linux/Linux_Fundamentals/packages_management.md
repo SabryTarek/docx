@@ -2,11 +2,11 @@ Package Managing
 =================
 
 
-Package is a one file archive = binary files + configrations files + man pages + lib + scripts + files destination in the file system fonts + photos + sounds + metadata
+Package is a one file archive = binary files + configurations files + man pages + lib + scripts + files destination in the file system fonts + photos + sounds + metadata
 
 package manager :-
 	- redhat based -> .rpm -> name-version.minor version.el7[.centos].{arch, x86_64,arm,...}.rpm
-	- debiane based -> .deb
+	- debian based -> .deb
 metadata :- dependances :  xml & sqlite
 
 
@@ -20,10 +20,10 @@ metadata :- dependances :  xml & sqlite
 __yum__
 
 - list -> search at name only
-- search -> search at name and discription
+- search -> search at name and description
 -  install
-- remove -> doesn't remove it dependancies
-- autoremove -> remove it dependancies
+- remove -> doesn't remove it dependencies
+- autoremove -> remove it dependencies
 - info
 - repolist
 - grouplist
@@ -39,7 +39,7 @@ __yum__
 
 
 
-confgrations_files :-
+configurations_files :-
 
 - /etc/yum.conf
 - /var/log/yum.log

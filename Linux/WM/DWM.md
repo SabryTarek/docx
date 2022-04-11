@@ -24,10 +24,12 @@ shoetcuts
 - shift + enter(reurn) -> st (terminal)
 ----------------------------------------
 
+tags (workspaces in other window manager)
 
+MOD + <number-of-tag>
+move cuttent window to another workspace MOD + SHIFT + <number-of-tag>
 
-
-
+resize current window MOD + H/L
 - mod + shift:
   - c ->  
   - q -> Quit dwm
@@ -39,8 +41,9 @@ DWM bar
 
 xsetroot -name "<Text | Command>"
 
-
-
+config.h
+config.def.h
+MOD1MASK -> MOD4MASK
 CUSTOMIZATION
        dwm is customized by creating a custom config.h and (re)compiling the source code. This keeps it fast, secure and simple.
 
@@ -72,3 +75,46 @@ Layouts
 There are three layouts available by default: the tiling layout, the monocle layout, and the floating layout.
 
 The tiling layout, represented by []= on the bar, organizes windows into two main areas: master on the left, and stack on the right. You can activate the tiling layout by pressing Alt+t.
+
+
+
+
+
+
+
+
+
+  Keyboard commands
+       Mod1-Shift-Return
+              Start st(1).
+       Mod1-Tab
+              Toggles to the previously selected tags.
+
+
+> layouts:
+- tiling -> t
+- monocle -> m
+- floating -> f
+
+     Mod1-b Toggles bar on and off.
+
+       Mod1-t Sets tiled layout.
+
+       Mod1-f Sets floating layout.
+
+       Mod1-m Sets monocle layout.
+
+       Mod1-space
+              Toggles between current and previous layout.
+
+> Workspaces:
+
+
+
+
+
+- layouts
+- window = screen
+- tag
+- 
+ 

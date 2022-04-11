@@ -12,3 +12,5 @@ digraph <name> {
 
 -- undirected arrow
 -> directed arrow
+
+plantuml(puml)

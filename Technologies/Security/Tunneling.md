@@ -4,3 +4,14 @@ In this video we will explain how TCP tunneling works, the applications of TCP t
 
 In networking, tunneling is using a protocol of higher level (in our case HTTP) to transport a lower level protocol (in our case TCP).
 
+
+
+-------------------------------------------------------------------------------------------------------------------
+Cloudflare Tunnel (cloudflared)
+===
+
+freedom: obtain a domain with a Top Level Domain (TLD) of the following: .TK / .ML / .GA / .CF / .GQ.
+
+
+- ngrok
+- localtunnel

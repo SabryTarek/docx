@@ -48,7 +48,73 @@ cscompete.com
     - A2oj
 
 
+Codeforces (also has SGU under acmsguru)
 
+Atcoder (also has JOI problems)
+
+DMOJ (IOI and ICPC problems)
+
+Kattis (ICPC problems)
+
+Advent of Code
+
+Timus
+
+Project Euler
+
+dunjudge.me
+
+UVa Online Judge/Online Judge
+
+Topcoder
+
+CodeChef
+
+oj.uz (IOI and ICPC)
+
+acmicpc.net (ICPC problems like Live Archive)
+
+USACO
+
+Leetcode
+
+Hackerrank
+
+e-olymp (olympiad)
+
+toph.co
+
+acmp.ru
+
+judtge.org
+
+URI Online Judge (ICPC)
+
+SPOJ
+
+PEG (migrated to DMOJ)
+
+CSES
+
+
+ https://judge.u-aizu.ac.jp
+https://thabit.io/
+
+lightoj
+codemarshal
+devskill
+dimikoj
+school.outsbook
+newtonschool
+
+
+
+
+other langs:
+
+Spanish
+
+https://www.aceptaelreto.com/
 ---
 
 # Codeforeses
@@ -73,12 +139,6 @@ Codeforces Problem tags
 - two pointer
 ---
 -  *800
----
-# repl.it
-
-$ clang++-7 -pthread -std=c++17 -o main main.cpp
-$ ./main
-
 ---
 
 - Accepted

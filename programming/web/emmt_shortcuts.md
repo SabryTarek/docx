@@ -37,7 +37,7 @@ lorem26 -> create random text consist of 26 word
 
 
 
-dublicate (Ctrl+D)
+duplicate (Ctrl+D)
 Delete Line (Ctrl+Shift+D)
 
 
@@ -51,11 +51,11 @@ addSelectionToNextFindMatch{
 
 vscode
 =========
-crtl + alt + -> = split current tab
-crtl + alt + <- = resplit current tab
+ctrl + alt + -> = split current tab
+ctrl + alt + <- = resplit current tab
 ctrl + (d)once = select last word to cursor
 ctrl + (d)multi = select last word to cursor in the file overall
-shift + delete = delte current line
+shift + delete = delete current line
 backspace = delete left character
 delete = delete right character
 ctrl + backspace = delete left word
@@ -69,7 +69,7 @@ ctrl + delete = delete right word
 youtube keyboard shortcuts
 ===================
 j k l
-, . -> move forward and backword slowly by frame
+, . -> move forward and backward slowly by frame
 f -> full screen
 t -> Theater mode
 m -> sound mute
@@ -102,28 +102,25 @@ ctrl + h = open history
 ctrl + j = open downloads
 ctrl + l = open downloads
 ctrl + k = open downloads
-ctrl + shift + t = repoen closed tab
 ctrl + w = close tab
 ctrl + shift + t = reopen closed tab
 ctrl + tab = move to right tab
 ctrl + shift + tab = move to left tab
 ctrl + d = add tab to bookmark
 ctrl + shift + d = add all tabs to bookmark
-ctrl + shift + b = oprn bookmark toolbar
+ctrl + shift + b = open bookmark toolbar
 shift + ESC = open task manager
-Alt + ESC = swap anmong open programs in OS
-
-أول شئ حمل rpmfusion
-2- sudo yum install broadcom-wl
-3- جرب هذا الامر وبعدها اعمل اعادة تشغيل 
-sudo dnf install kernel-headers 
+Alt + ESC = swap among open programs in OS
 
 
-commands | bash === bash -c "commands"
-fedy
-dnfdragora replaces Yumex-DNF
-yum -> yumex
-dnf -> yumex-dnf -> dnfdragora
+
+win + x
+win + d
+win + t
+win + e
+  
+
+
 
 
 

@@ -51,12 +51,14 @@ kdump
         (http://xminers.club/2018/03/02/لماذا-يجب-أن-تستخدم-google-colab-في-المرة-القادمة/)
   - [google CLOUD DATAPROC on Cloud Platform](https://cloud.google.com/dataproc/?hl=ar)
   - [floydhub](https://www.floydhub.com)
+  - [deepnote](deepnote.io)
+  - [jovian](jovian.ai)
 
 
 
 
 
-
+- [teachablemachine](https://teachablemachine.withgoogle.com)
 
   xkcd
 

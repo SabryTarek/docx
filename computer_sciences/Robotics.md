@@ -1,6 +1,6 @@
 Robotics
 ========
-Degree of Freedom
+Degrees of Freedom
 link
 gearbox
 
@@ -13,93 +13,9 @@ gearbox
 - actuators
 
 
-
-
-
----------------------------------------------------------------------------------------------------------------------------------------------
-[ROS](http://www.ros.org)
-=========================
-
-Robot Oprating System
-
-Definition: Robotics Framework
-meta-operating system or Framework
-rostopic pub /cmd-vel geometry-msgs/twist
-
-
-concepts:
-- Topics (pub/sub) -> many to many
-- Services (server/client) -> one to one
-- Actions
-- Debugging: RViz
-
-
-ROS Master -> entry point
-
-nodes .. messages .. bag files (log files)
-
-
-manual vs autonomous
-
-
-
-- Google autonomous car
-s
-
-- sudo apt-get install ros-<ROS_DISTRIBUTION_NAME>-<PACKAGE_NAME>
-- rosrun PACKAGE_NAME NODE_NAME
-
-
-EX:
-- sudo apt-get install ros-indigo-rospy-tutorials || sudo apt-get install ros-kinetic-rospy-tutorials`
-- rosrun rospy_tutorials talker
-
-
-
-- rostopic:
-    - bw
-    - echo
-    - find
-    - hz
-    - info
-    - list
-    - pub
-    - type
-
-
-
-- [ROSCON](http://roscon.ros.org/2016/)
-- ROS Meetup
-- [ROS Answers](http://answers.ros.org/questions/)
-- [ROS Planet](http://planet.ros.org/)
-- [Mailing Lists](http://lists.ros.org/mailman/listinfo/ros-users)
-
----------------------------------------------------------------------------------------------------------------------------------------------
-SolidWorks
-===========
-- Part
-- Assembly
-- Design
-
-- file-extention: .m
-- alternatives:
-    - autodesk inventor
-
-
-Sketch:
-- Point
-- Line
-- Circle
-- Triangle
-- Polygon
-- Corner Rectangle
-
-
-- automatic relation
-- geometric relation
 ---------------------------------------------------------------------------------------------------------------------------------------------
 Matlab
-======
+===
 
 - file-extention: .m
 - alternatives:
@@ -147,13 +63,12 @@ desktop.restoreLayout('Default');
 - n = char(5)
 
 
+MathWorks:
+    - matlab
+    - LabView
+    - SmuLink
 
 
-LabView
-SmuLink
-
-AutoCAD
-Rhino
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -304,42 +219,3 @@ kabanove
 - adaptive control = non-linear system
 - automatic control
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-inch = 2.54 cm
-pound = 
-
-
-
-جورش فرح
-هاني رامبود
-شاد نيكولز
-ديف بلومبو -> RX Muscle youtube channel
-mill yoda hill
-
-212 pound 
-open pound
-
-William Bonac
-1965 -> 13
-- Larry Scott
-
-
-BCAA
-Glotamin

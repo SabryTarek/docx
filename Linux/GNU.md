@@ -46,3 +46,9 @@ acme text editor
 sam text editor
 9term terminal emulator
 rc shell
+
+
+
+grep
+-i -> ignorecase
+-R -> 

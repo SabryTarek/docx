@@ -46,3 +46,5 @@ gulp.task('browserify', function() {
 	.pipe(concat('build.js'))
 	.pipe(gulp.dest('./dest'))
 });
+
+$ gulp watch

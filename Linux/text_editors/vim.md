@@ -4,6 +4,7 @@ Vim -> created by: Bram Moolenaar
 - vim -> [v]isual [i]nterface [m]odified || [vi]sual editor [m]odified || [v]isual editor [im]proved || enhanced vi || programer editor
 - Gvim -> GUI vim
 - vim-gtk
+- vim-nox
 - neovim
 
 
@@ -11,6 +12,8 @@ ed (standard unix text editor) -> sed/awk -> vi -> vim -> neovim
 - Emacs
 - nano
 - pico
+- kakoune
+- xi
 - 
 
 # the author of the game of throne books a lot of people don't realize he actually wrote the entire book series in vim
@@ -36,6 +39,8 @@ ed (standard unix text editor) -> sed/awk -> vi -> vim -> neovim
 
 - s -> 
 - S -> 
+
+Shift-s -> remove line and go to insert mode
 --------------------------------------------------------------------------------------------------------------------------------------------------
 > Normal mode "Esc"
 - y -> yank
@@ -598,3 +603,5 @@ http://paste2.org/p/2015003
 
 good plugins:
 - vim-pandoc
+- vimwiki
+- taskwiki

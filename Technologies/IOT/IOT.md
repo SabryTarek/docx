@@ -1,5 +1,20 @@
 IOT (Internet Of Things)
 ========================
+IOT
+- abbreviation for: Internet Of Things
+- started at: 1999
+
+
+
+RoboCon
+Sumo Robot
+Robo Olympics
+metal compitation
+
+Racing Team Ain shams
+
+
+https://www.slideshare.net/SurajKumarJana/practical-introduction-to-internet-of-things-iot-95405508/38
 
 
 - IOT: Internet Of Things

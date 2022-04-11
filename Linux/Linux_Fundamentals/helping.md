@@ -47,3 +47,4 @@ N -> previoues pattern
 - man man
 ------------------------------------------------------------------------------------------------------------------------
 https://explainshell.com/
+https://www.commandlinux.com/

@@ -1,3 +1,0 @@
-macchanger
-==========
-GNU macchanger

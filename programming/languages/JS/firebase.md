@@ -1,5 +1,25 @@
-Firebase
-=========
+[Firebase](https://firebase.google.com/)
+===
+[https://firebase.google.com/docs]
+- Android
+- IOS
+- Mobile Web
+
+* Services:
+- No-SQL Database
+    - Realtime 
+    - Firestore
+- Hosting
+- File Storage
+- Functions
+- Machine learning
+
+Project -> -> 
+Rules
+
+
+ASCII control characters
+
 
 
 - insert :-

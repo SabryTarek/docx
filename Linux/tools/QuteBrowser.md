@@ -1,4 +1,0 @@
-Qutebrowser
-===
-
-Keyboard Centric

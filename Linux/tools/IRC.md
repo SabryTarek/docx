@@ -35,3 +35,6 @@ symbian
 
 
 
+commands
+- Case Insensitive
+-

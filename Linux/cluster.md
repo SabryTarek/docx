@@ -49,7 +49,6 @@ master (frontend)
 - High Availabilty -> resolve single point of faillure
     - active active
     - active passive
-- Load Balancing   -> HA Proxy  -> varnish, nginx ->LoadBlancer -> more 
 - High Performance
 
 

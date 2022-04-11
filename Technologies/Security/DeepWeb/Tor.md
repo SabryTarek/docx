@@ -10,15 +10,6 @@ Tor
 
 
 
-
-- Tor -> .onion 
-- FreeNet
-- I2P
-- ZeroNet -> .bit
-  - Binary
-  - Browser
-
-
 Osret Almanar
 
 
@@ -32,26 +23,13 @@ electrodroid
 every circuit free
 
 
-
-
-
-
-
-
-
 The Internet (1994)
 ===================
 
 - Netscape
 
 
-
-
-
-
-
 How internet work ?
-Rise up email
 How VPN vs Proxy vs Tor work
 Transparent proxy
 How IP <---> DNS
@@ -65,34 +43,6 @@ How IP <---> DNS
 - bear
 - Roit.im -> MAtrix Protocal
 - 
-- BitMassage
-- FreeNet
-- I2P
-- ZeroNet
-- Tor -> Onion Protocal
-
-
-
-- GPG -> PGP
-- VPN
-    - WireGuard
-        - TunSafe
-    - IPSec
-        - OpenVPN
-    - 
-
-Data Encryption:
-- File System: LUKS
-- 
-
-ProxyChain
-ProxyChain-ng
-MACchanger
-DNS-over-HTTPS
-
-
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 https://www.fastssh.com/
 https://cyberssh.com/
@@ -102,6 +52,11 @@ https://speedssh.com
 https://cloudssh.us
 http://www.globalssh.net
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- ssh account
+- ssl account
+- proxylist
+
 - VPN SERVERS
 - SSH SERVERS
 - STunnel SERVERS
@@ -123,26 +78,7 @@ https://linuxzoo.net/
 https://colab.research.google.com/drive/
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-> Chat Applications:
-> Browing:
-> 
-
-> VPN
-> Proxy
-> MAC Address
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Tor VS tor browser

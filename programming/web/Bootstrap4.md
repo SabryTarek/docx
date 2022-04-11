@@ -39,3 +39,37 @@ col-md-pull-1
 
 
 aria-hidden="true" => for handicapes
+
+
+
+btn-primary 
+btn-secondary
+btn-success
+btn-danger
+btn-warning
+btn-info
+btn-light
+btn-dark
+
+btn-link
+
+
+.btn-*
+.btn-outline-* //=> Transparent Background until hover
+| Keyword   | Color       |
+|-----------|-------------|                            
+| primary   | Blue        |
+| secondary | Gray        |
+| success   | Green       |
+| danger    | Red         |
+| warning   | Yellow      |
+| info      | Cyan        |
+| light     | Off White   |
+| dark      | Lite Black  |
+| link      | Transparent |
+
+.btn-sm
+.btn-lg
+
+
+.btn-block //all size of his parent

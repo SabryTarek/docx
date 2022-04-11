@@ -68,7 +68,8 @@ Cosplay
 - Uphold
 
 
-
+- Zelcore wallet
+- Flux
 
 # Pool
 - etherummine.org

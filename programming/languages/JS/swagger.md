@@ -41,3 +41,18 @@ REQUIRED
 
 
 https://swagger.io/specification/
+
+
+
+
+
+
+
+how to use header into swagger
+authentication
+
+ swagger-jsdoc@7x (node14x) since it requires import instead of "require". The easiest solution was to use swagger-jsdoc@6x
++
+const openapiSpecification = await swaggerJsdoc(options);
+
+Is there anyway to generate some default documentation without writing the API Documentations (comments/openapi)  manually? Like in ASP.NET core?

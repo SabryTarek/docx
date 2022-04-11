@@ -44,6 +44,7 @@ written in Ruby by Rapid7 use postgresql as a database
 - cobalt strike
 
 > Commands:
+metasploit command utility : msfconsole msf console
 
 - msfconsole -> open metasploite
 - DB_status -> connection between metasploite and exploitation database
@@ -136,3 +137,11 @@ search <>
 show options
 set option <option_name> <value>
 run === exploit
+
+
+
+
+whatweb <URL>
+wpscan --url <URL>
+
+wpscan --url <URL> --username <john> --wordlist </usr/share/wordlist/rockyou.txt>

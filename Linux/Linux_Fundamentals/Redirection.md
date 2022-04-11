@@ -61,3 +61,12 @@ alias xclip='xargs echo -n | xclip -selection clipboard'
 
 
 less 
+
+
+xargs
+===
+the default command is "echo"
+
+
+options:
+	-t 

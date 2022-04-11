@@ -38,19 +38,18 @@ ffmpeg -i <vidoe_path>.mp4 -i <subtitle_path>.vtt -c:s mov_text -c:v copy -c:a c
 
 
 -----------------------------------------------------------------------------------------------------------------------------
-## configration
+## default configration
 
 --ignore-config
 --config-location <custom_configuration_file>
-youtube-dl.conf
 
-defult configtation file location:
-linux:
+* defult configtation file location:
+  linux:
     all users:
         - /etc/youtube-dl.conf
     spasific user:
         - ~/.config/youtube-dl/config
-windows:
+  windows:
     - %APPDATA%\youtube-dl\config.txt || C:\Users\<user name>\youtube-dl.conf
 
 
@@ -75,7 +74,7 @@ Example:
 -p === --password <your_extrsctor_password>
 
 
-
+extractors
 
 --netrc
 

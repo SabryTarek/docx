@@ -1,5 +1,15 @@
 clang
-===========
+===
+
+
+# repl.it
+
+$ clang++-7 -pthread -std=c++17 -o main main.cpp
+$ ./main
+
+---
+
+
 - g++ main.cpp === clang main.cpp
 
 how yocto generate clang based SDK and use them

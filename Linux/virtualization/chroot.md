@@ -1,5 +1,10 @@
-docker export <container_id> > <>.tar
-tar -xvf <>.tar
+chroot
+===
+
+### alternatives
+- proot chroot in userspace
+- BSD jails
+
 
 
 for i in dev proc sys do

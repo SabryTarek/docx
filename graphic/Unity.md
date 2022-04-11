@@ -161,3 +161,30 @@ blue msx
 
 
 cxx
+
+
+Game Categories
+===
+- Platformer (side scroller) game
+- RPG
+
+
+
+
+
+
+
+
+
+
+
+GD50 is to game programming whereas CS50 is to general-purpose programming and problem-solving.
+
+
+- GD50 adopts a case study style approach, whereby week by week, we'll look at a specific game, and we'll analyze it, figuring out what the parts do and how they form a playable whole.
+- We'll look at games like Pong, Breakout, Super Mario Bros., Legend of Zelda, Portal, and many more.
+
+
+
+
+ Aseprite: sprite sheet editor / pixel-art

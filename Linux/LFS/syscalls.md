@@ -124,7 +124,6 @@ return 0;
 
 
 
-wget = curl -o
 tar
 make defconfig
 make

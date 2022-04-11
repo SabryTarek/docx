@@ -6,6 +6,9 @@ Just make sure to add yourself to the video group.
 To get back to the Xsession GUI is (Ctrl+Alt+F7)
 
 
+Startup Scripts
+~/.xinitrc
+~/.Xsession
 
 XSession = GUI
 
@@ -93,10 +96,9 @@ display server:
 
 POSIX compatible oprating systems
 
-
-
-
-
+Display server
+    - Xorg
+        - xorg-server
 
 
 
@@ -166,3 +168,58 @@ X = Xinit
 startx
 
 
+------------------------------------------------------------------------------------------------------------------------
+
+xdg
+=====
+freedesktop
+
+autostart
+/etc/xdg/autostart/<anything>.desktop
+
+
+
+- xdg-open
+- xdg-mime
+- xdg-settings
+
+
+xdg-open supports file, ftp, http and https URLs.
+xdg-open is for use inside a desktop session only.
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> xdg-mime:
+    - xdg-mime query {filetype | default} ...
+    - xdg-mime default application mimetype(s)
+    - xdg-mime install [--mode mode] [--novendor] mimetypes-file
+    - xdg-mime uninstall [--mode mode] mimetypes-file
+    - xdg-mime {--help | --manual | --version}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# wctrl
+
+wctrl is a command line tool to {switch, close, move, resize, set title, list, …} windows.
+
+
+wctrl -lx -> show information
+------------------------------------------------------------------------------------------------------------------------
+(Desktop-Display) Environment / Window Manager
+
+For complete listing of user sessions type:
+$ ls /usr/share/xsessions/*.desktop || $ ls /usr/share/xsessions/
+
+dwm.desktop
+dwm-user.desktop
+
+gnome-classic.desktop
+gnome.desktop
+gnome-xorg.desktop
+
+i3.desktop
+i3-with-shmlog.desktop
+
+xmonad.desktop

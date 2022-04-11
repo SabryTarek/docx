@@ -2,8 +2,7 @@ asp web forms
 
 windows forms
 
-ADEF
-WIFI for download
+
 
 
 
@@ -36,7 +35,7 @@ Eng Ahmed Hessuien
 
 - IIS for gov
 - Build your own linux (BYOL) +(Linux From Scratch) LFS + embedded Linux
-- Networing
+- Networking
 - 
 
 Kelany

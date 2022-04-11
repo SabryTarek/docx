@@ -368,6 +368,8 @@ containers:
 
 
 
+
+
 https://golang.org/
 https://golang.org/dl/
 https://golang.org/doc/
@@ -379,3 +381,64 @@ https://golang.org/pkg/
 https://blog.golang.org/
 	- https://blog.golang.org/index
 https://play.golang.org/
+
+
+
+
+factored import statement VS multiple import statements
+
+
+In Go, a name is exported if it begins with a capital letter.
+
+
+When two or more consecutive named function parameters share a type, you can omit the type from all but the last.
+
+In this example, we shortened
+
+x int, y int
+to
+
+x, y int
+
+"naked" return.
+
+Go's basic types are
+
+bool
+
+string
+
+int  int8  int16  int32  int64
+uint uint8 uint16 uint32 uint64 uintptr
+
+byte // alias for uint8
+
+rune // alias for int32
+     // represents a Unicode code point
+
+float32 float64
+
+complex64 complex128
+
+The int, uint, and uintptr types are usually 32 bits wide on 32-bit systems and 64 bits wide on 64-bit systems. When you need an integer value you should use int unless you have a specific reason to use a sized or unsigned integer type.
+
+
+Variables declared without an explicit initial value are given their zero value.
+
+The zero value is:
+
+0 for numeric types,
+false for the boolean type, and
+"" (the empty string) for strings.
+The zero value of a slice is nil.
+
+A nil slice has a length and capacity of 0 and has no underlying array.
+
+
+If the backing array of s is too small to fit all the given values a bigger array with double size will be allocated. The returned slice will point to the newly allocated array.
+
+When ranging over a slice, two values are returned for each iteration. The first is the index, and the second is a copy of the element at that index.
+
+
+
+Pointer receiver VS value receiver

@@ -316,14 +316,26 @@ init -> upstart{ubuntu} -> systemd{fedora}
 
 
 
+/etc/systemd/
+- system/
+- user/
+- network/
+
+------------------------------------------------------------------------
+OpenRC
+rc-service
+
+rc-update
 
 
+rc-update show === rc-update
+------------------------------------------------------------------------
 
 
 active vs enable
 ------------------
 active -> running now
-enable -> booting automatclly when system rebooting
+enable -> booting automatcly when system rebooting
 #  vendor perset : enable/disable -> defult configration
 <br>
 
@@ -388,3 +400,152 @@ init system:
    0. kernel
    1. init
    2. bash
+
+
+-----------------------------------------------------------------------------------------
+
+### Systemd Timer
+
+there are a number of different demons out there programs that can run in your computer that exist to run other programs at certain times say you want to run a program at the same time every week or every 24 hours maybe you're running some kind of cleanup task rotating log files in my case I've been using timers recently
+
+
+
+
+- cleanup task
+- rotating log
+
+
+- at
+- cron
+- crond
+- anacron
+
+
+
+setup for a systemd timer is a little bit more complicated than a cron entry traditionally
+with cron systems you would have a single line of configuration you would put in a file somewhere
+with systemd we're going to make a script first then we're going to make a system D service to start the script and then we're going to make a timer to start the service so it's to system D unit file
+
+
+
+create systemd service/unit file
+
+``` bash
+$ cd /etc/systemd/system
+$ vim myscript.service
+
+# unit section
+[Unit]
+# only requiired 
+Description=my custom script
+
+# serive section since this a service file
+[Service]
+# you don't need to but this line beacuse of "simple" is the default value
+# which is basically just starting a process and then as soon as the process has started system D considers it's successfully executed
+# it's not going to track how long it's running or anything like that
+# I like to include the type even when it is simple just to make my files easier to read
+Type=simple
+
+# this is the file that we're going to call when we actually start this service
+ExecStart=/optmtscript.sh
+
+# finally I'm going to put user equals Jakob
+# if I don't put user equals Jakob the script will run but it would be run as the root user
+# since that's the default user to run system D services as
+# that's not a security flaw because it requires root access to enable their start services
+# so it makes sense that if you've got root access you should be able to run your services as root if you want to
+# but in this case I want to be able to open my log file up
+# I would be able to read it you if it was created by root but I just want that to be owned by my user here for simplicity
+# so I'm including the user line
+# now if we were just making a system tea service and we wanted to run this every boot we could do that very easily if you want a log of every time your $\
+User=Jakob
+
+# if you want a log of every time your system boots we can put a little install section down here
+# and we can say wanted by equals and then the target that we want this to be run with
+# so if I put multi user dot target then this service when enabled would run whenever the multi user target is starting
+# if I wanted to only run when I'm starting the GUI that I can put graphical target graphical at that target is what I normally use when I want services to actually run on desktop computers on startup
+# but in this case we actually don't need an install section at all
+# because we're not going to enable this service if we enable the service it would start along with a target
+# but that's not what we want we want the service to start on a timer
+# and in order to do that we need to have the timer unit in addition to the service unit
+# so I'm actually going to get rid of the install section altogether
+# and I'm going to save the service so that's all that our service file where there needs to be like I mentioned before
+# this can seem overwhelming if you've never done it before but really it's seven lines of text we're only using four options here
+# out of the many possible options that you can put into a service file
+# so that's all we need to do inside of there at this point
+[Install]
+WantedBy=
+# we can actually test that our service file is working by starting the service manually
+# now we can't enable the service because it doesn't have an install section but we can start the service manually
+
+
+# that's going to scan for new and updated services
+$ sudo systemctl daemon-reload
+# so we know that our service file is working now
+#  and all that we have left is to actually put the timer in place to automatically run that at the interval that we want so
+$ sudo systemctl start myscript.service
+# in order to do that
+
+$ cd /etc/systemd/system
+$ vim myscript.timer
+# it's recommended that you name the service unit and the timer unit the same thing before the file extension
+# it is not required and I'll show you how to not do that if you want to
+
+[Unit]
+Description=my custom script timer
+# instead of a service section and this file we're going to put a timer section since this is a timer unit
+[timer]
+
+
+# now inside the timer unit if your timer and your service are named the same thing you do not need to include the unit option
+# because it's going to default to running a service that's the same name as the timer
+# however if for some reason you do want to make a timer that's named something different than the service
+# then you can put unit equals and then I'm gonna put my script dot service
+
+# and just like the type equals simple that I put in my service file even when I'm making timers that run similarly named services
+# I still like to include the unit equals option just to make these easier to read if somebody's unfamiliar with system D
+# and they don't know that a timer is going to automatically run a service with the same name
+# then if they're looking at a timer unit they might be confused about its relation to the service unit
+# so it's just an extra line of text that you can put in there to explicitly state when this timer runs we want to start this service
+Uint=myscript.service
+OnBotoSec=5min
+OnUnitActivateSec=15min
+```
+
+
+
+
+
+
+# I keep all my media on s3 buckets in form of year-month-day prefixed in on history but at the same time I want to keep backups of my s3 bucket locally
+$ aws s3 sync s3://s.natalian.org /mnt/2tb/s.natalian.org
+
+
+# I recommend "aws s3 sync" because it seems to be a little bit more efficient than the s3 command client
+# your mileage may vary but on my test AWS s3 sync was better
+# I've already got sort of my keys configured though for your backup strategy
+# you probably want to set up an s3 read-only account for your backups
+# set up you key in AWS.config and this should hopefully work
+
+most widely used in it system and service management system
+$ systemctl list-timers --all
+
+
+To see logs of what it's doing: journalctl -u s3staticbackup.service -f
+
+Make sure to start the timer and start the service to test.
+
+docker --env-file
+
+
+
+
+
+
+
+
+
+
+sshadmin@meet:~$ logout
+bash: logout: not login shell: use `exit'

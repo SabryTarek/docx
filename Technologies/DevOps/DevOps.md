@@ -125,3 +125,8 @@ mon
 
 serverless -> upload your code at AWS they ask you to pay per requests not infrastructure
 
+
+
+
+A/B testing
+Canary Deployment

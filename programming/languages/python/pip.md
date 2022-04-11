@@ -15,8 +15,8 @@ pipenv inside pipenv: pipenv run
 - pipfile
 - pipfile.lock
 
-
-the recommended tool from Python.org
+combine packages mangments + virtual environment
+highly recommended packaging tool from Python.org
 - pipenv install <package_name> [--dev]
 - pipenv uninstall <package_name>
 - pipenv shell

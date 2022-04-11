@@ -9,3 +9,6 @@ Termnologies
 - rice - ricing
 - bloateware - bloated software VS minmal - minmalist
 
+- ASAP:As Soon As Possible
+- IMO: In My Opinion
+

@@ -123,7 +123,6 @@ You should note that a lot of sass libraries are dead now because of PostCSS/Aut
 
 
 
-fontweight -> degree of font light
 
 
 Cluster type "depend on nodes type":
@@ -183,4 +182,17 @@ FLOSS: Free Liberal Open Source Software
 
 
 -----------------------------------------------------------------------------
+	• Swagger
+	• Postman
+	• Mirage.js
+	• Mokoon
+
+	• GitBook
+
+	• Wasm
+
+	• OpenFaas
+
+
+Lunchctl -> MAC TOOL
 

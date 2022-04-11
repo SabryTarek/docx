@@ -741,13 +741,13 @@ E-mail: esf.egy.2013@gmail.com
 
 sys calls
 
-24 precor wiki shearch
+24 precor wiki search
 150 arch
 
 
 
 
-configer GCC to 
+configure GCC to 
 
 
 every precessor arch has:

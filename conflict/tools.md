@@ -8,7 +8,6 @@ CAVE  Cmuse
 Terminal: Terminator
 Files manager: Thunar
 Internet browser: Firefox
-Emails: Thunderbird
 Jabber: Pidgin
 Torrent: Transmission
 Ftp/SSH: Gftp and Gigolo

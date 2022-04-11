@@ -1,0 +1,11 @@
+Donating
+===
+
+Bitcoin
+Ethereum
+BitcoinCash
+Sia
+Storj
+Litecoin
+Feathercoin
+BountySource

@@ -1,10 +1,10 @@
 /**************************************************************************************************************************************/
 
-c++ Liberaries
+c++ Libraries
 - Standard Template Library
 - collection of template classes
-- Containers (Data Sraucutes)
-- Algorthims (Template Functions)
+- Containers (Data Structures)
+- Algorithms (Template Functions)
 - Iterators
 - <complex> = complex number 
 
@@ -28,7 +28,7 @@ c++ Liberaries
 	- <array>
 	- <vector> (ArrayList)
 	- <deque> (Double queue)
-	- <forward_list> (Singliy LikedList)
+	- <forward_list> (Singly LikedList)
 	- <list> (Doubly LikedList)
 
 - Container adaptors:
@@ -61,7 +61,7 @@ Two class templates share certain properties with containers, and are sometimes 
 
 - Updating means inserting/deleting an element
 - querying means searching/operating a particular element.
-So just try to analyze which data structure is taking how much time for querying and updation.
+So just try to analyze which data structure is taking how much time for querying and updating.
 
 
 
@@ -85,13 +85,12 @@ So just try to analyze which data structure is taking how much time for querying
 
 
 
-in 32-bit applications memry address is 32 bit
-unction pointers are just
-a way to assign a function to a variable
+in 32-bit applications memory address is 32 bit
+function pointers are just a way to assign a function to a variable
 
-display() -> calling a function
-display -> getting the function pointer
-&display -> getting the function memory address
+- display() -> calling a function
+- display -> getting the function pointer
+- &display -> getting the function memory address
 
 
 standard bind
@@ -99,10 +98,10 @@ void(*<function_pointer_name>)(int x) = greating;
 
 typedef void(*func_ptr)(string);
 
-func_ptr s = greating
+func_ptr s = greeting
 s("sabry");
 
-you cann't use a function as a first citizen but you can do it at function pointer
+you can't use a function as a first citizen but you can do it at function pointer
 
  function objects, and functors
  method pointers
@@ -171,15 +170,15 @@ std function:
 
 >>>>>>>>>>>>>>>>>>>>># [\<vector\>](http://www.cplusplus.com/reference/vector/vector/) [29]
 
-vector intialization
+vector initialization
 
-| vector<int>v; | Defualt constrauctor size == capacity = zero there is no elements
-| vector<int>v(5); | prametrized constractor //OUTPUT: 0  0  0  0  0
+| vector<int>v; | Default constructor size == capacity = zero there is no elements
+| vector<int>v(5); | parametrized constructor //OUTPUT: 0  0  0  0  0
 | vector<int>v {1,2,3,4,5,}; | 
 | vector<int>v(arr.begin(, arr.end())); |  copy data from array
 
 
-Initializing by one by one pushing values
+Initializing one by one pushing values
 
 >>>>>>>>>>>>>>>>>>>>>### Iterators: [8]
 	- begin()
@@ -223,7 +222,7 @@ Initializing by one by one pushing values
 >>>>>>>>>>>>>>>>>>>>># [\<algorithm\>](http://www.cplusplus.com/reference/algorithm/)  [85]
 
 >>>>>>>>>>>>>>>>>>>>>### Non-modifying sequence operations: [17]
-| Function | discription |
+| Function | 	 |
 |----------|-------------|
 | all_of() |  Test condition on all elements in range |
 | any_of() |  Test if any element in range fulfills condition |

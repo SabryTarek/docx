@@ -29,6 +29,15 @@ Storage Device (Storage Media):
 
 
 
+Capture Card -> record BIOS
+Live Boot
+- Live CD/DVD
+  
+
+Root Drive
+Partitioning Scheme
+
+
 User Applications uses Sys Calls to talk to Kernel
 
 
@@ -118,6 +127,7 @@ overlayfs
 
 has been merged in kernel 3.18-rc2
 
+wipefs -a /dev/sdb
 
 ---------------------------------------------------------------------------------------------------
 Why use mergerfs over mhddfs?

@@ -9,7 +9,6 @@ open relay
 Enumeration === محاولة تجميع معلومات 
 
 
-metasploit command utility : msfconsole msf console
 
 -------------------------------------------------------------------------------------------------------------
 

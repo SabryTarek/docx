@@ -179,3 +179,7 @@ FFMPEG consist of:
 - libavfilter: is a library containing media filters.
 - libswscale: is a library performing highly optimized image scaling and color space/pixel format conversion operations.
 - libswresample: is a library performing highly optimized audio resampling, rematrixing and sample format conversion operations.
+
+
+
+avconv is a fork of FFmpeg, so they accept mostly the same arguments

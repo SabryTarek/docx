@@ -87,3 +87,8 @@ cp /root/xorg.conf.new /etc/X11/xorg.conf
 - ftp
 - rsync
 - local
+
+
+postmarketOS based-on alpinelinux
+
+install in RAM

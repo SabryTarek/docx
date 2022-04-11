@@ -12,6 +12,21 @@ Jupyter
 
 
 
+jupyter
+jupyter-kernelspec
+jupyter-labhub
+jupyter-nbextension
+jupyter-serverextension
+jupyter-bundlerextension
+jupyter-lab
+jupyter-migrate
+jupyter-notebook
+jupyter-troubleshoot
+jupyter-kernel
+jupyter-labextension
+jupyter-nbconvert
+jupyter-run
+jupyter-trust
 ---------------------------------------------------------------------------------------------------------------------
 Magics: Specieal commands buit-in Notebook
 magic -> %lsmagic
