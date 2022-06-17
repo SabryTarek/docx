@@ -171,6 +171,63 @@ visual studio code
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------
+[dnotnet core]()
+===
+- SDK
+    + C#
+    + F#
+    + VB
+- Runtime
+
+- ";" Mandatory
+- 
+
+```bash
+$ apt install dotnet-sdk-6.0
+$ dornet --help
+```
+
+
+
+```bash
+$ dotnet --version
+$ dotnet tool install --global dotnet-ef
+$ dotnet new mvc -n "ASP.netCore CRUD App" --lang "C#"
+```
+```bash
+$ dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 5.0.1
+$ dotnet add package Microsoft.EntityFrameworkCore.sqlite --version 5.0.1
+$ dotnet add package Microsoft.EntityFrameworkCore.tools --version 5.0.1
+$ dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore --version 5.0.1
+```
+
+```C#
+int myInt = 1;
+float myFloat = 1f;
+bool myBoolean = true;
+string myName = "John";
+char myChar = 'a';
+double myDouble = 1.75;
+
+
+// C# supports type inference
+var x = 1;
+var y = 2;
+var sum = x + y;    // sum will also be defined as an integer
+
+
+// Type Conversion | Casting => {Automaticly=Implictly | Manually=Explictly}
+int myVar = (int) 1.0; // === var mtVar = Convert.ToInt32(1.0)
+string myVar = Convert.ToString(10); // === var mtVar = Convert.ToString(1.0)
+```
+
+PascalCase for:
+    - Files
+    - Modules
+    - Classes
+    - Functions
+CamelCase
+    - Variables
 
 | .net framework | .net core |
 |----------------|-----------|

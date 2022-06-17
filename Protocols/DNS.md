@@ -49,3 +49,41 @@ Keep in mind that each time you change an option, you have to restart dnsmasq wi
 
 https://github.com/lixingcong/dnsmasq-regex
 ---------------------------------------------------------------------------------------------------------------
+
+
+[NextDNS](https://my.nextdns.io/)
+===
+- nextdns is similar to a pi hole
+This device is not using NextDNS.
+This device is currently using ”TE-AS” as DNS resolver.
+
+All good!
+This device is using NextDNS with this configuration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/etc/hosts file -> DNS Servers
+
+
+master ping commamnd
+
+Round Trip time = ping time (milisecends)
+
+dig
+trace
+
+route
+
+
+

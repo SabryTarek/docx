@@ -45,3 +45,7 @@ There is no standard Lua package management system, but you can try out the foll
 http://ulua.io/
 
 
+
+
+- programming language is made up of syntax and semantics.
+lua is dynamic imperative language with closures.

@@ -1,51 +1,313 @@
-Haskell 
-========
-- pure functional programming language 
+[Haskell](https://www.haskell.org/)
+===
+- purely functional programming language 
 - strongly typed
+- statically typed
+- Declarative
 - combinig functions cloujer to avoid repetition
 - compiled language
 > Hello world : putStrLn "Hello World"
 > The Prelude: a standard module. The Prelude is imported by default into all Haskell modules unless either there is an explicit import statement for it, or the NoImplicitPrelude extension is enabled.
-# data types:
 
-- Int
-- Float
-- Double
-- Fractional
-- Enum
-- Bool [True, False]
-- [] #List
-- () #Tuple 
-- Char
-- String #[Char]
-- Num [Int | Float | Double]
-- Ord
-- Val
-- Div
-- Expr
-- Maybe [Nothing, Just]
-doubleMe x = x + x
-doubleUs x  y = doubleMe x + doubleMe y
+
+
+
+- Course Book: [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/) -> Best Free Haskell Book
+
+* 00:00 Intro
+    + file extension: .hs
+    + pure functional programming language (Purely functional = no side-effects)
+    + everything in it is immutable (no mutation) so once a value is set of course it's going to be set forever
+    + functions can be passed as a parameter to other function
+    + recursion is used very often
+    + oddly Haskell has no for while return variable it has values(constants)
+    + Haskell is also lazy and that it doesn't execute more than as needed
+    + just checks for errors whenever you compile
+    + the compiler is very very strict and does its best to cut out any potential errors Haskell like Lisp
+    + Haskell like Lisp is a great language to learn if you want to get better at programming
+    + just aside from the fact that it's a great language
+* 01:13 [Installation](https://www.haskell.org/downloads/)
+    + Haskell toolchain
+        - GHC: the [G]lasgow [H]askell [C]ompiler
+            + GHCI: the [G]lasgow [H]askell [C]ompiler [I]nterpreter
+                ```haskell
+                    doubler x = x * 2       # pattern-mattching - x is a wildcard
+                    doubler = \x -> x * 2   # lambda-function \===lambda-symbol
+                    factorial x = if x == 0
+                                    then 1
+                                    else x * (factorial (x - 1))
+                ```
+                ```bash
+                    $ ghci  # Haskell REPL = ghci -> great haskell compiler interactor
+                    Prelude> :l hello   # :l == :load <module_name>
+                    *Main> doubler 5
+                    *Main> doubler (doubler 5)
+                    Prelude> let squarer x = x * x
+                    *Main> squarer 4    # apply squarer function at 4
+                    Prelude> :r # :r == :reload
+                    Prelude> :t squarer # :t === :type
+                    *Main> factorial 5
+                ```
+        - cabal-install: the Cabal installation tool for managing Haskell software
+        - Stack: a cross-platform program for developing Haskell projects
+        - haskell-language-server (optional): A language server for developers to integrate with their editor/IDE
+    + Download
+        - [GHCup](https://www.haskell.org/ghcup/) installer for [GHC + cabal-install + haskell-language-server]
+        - To install [Stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/)
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 03:12 Comments
+    ```haskell
+        --  Single-line comment in Haskell
+
+        {-
+            Multi-line comment in Haskell
+            Multi-line comment in Haskell
+            Multi-line comment in Haskell
+        -}
+    ```
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 03:46 Data Types
+    + haskell uses type inference: it decides on the data type based of the value that you store inside of it you're also able to define what type of data
+    + statically-typed: once you define a type you're not going to be able to switch it
+    + Haskell Primitive Types
+        - Int
+            -- Int : Whole numbers
+            -- -2^63 : 2^63
+        - Intger 
+        - Float
+        - Double
+        - Fractional
+        - Enum
+        - Bool [True, False]
+        - [] #List
+        - () #Tuple 
+        - Char
+        - [Char]    # alais/syntactic Suger -> String
+        - Num [Int | Float | Double]
+        - Ord
+        - Val
+        - Div
+        - Expr
+        - Maybe [Nothing, Just]
+    doubleMe x = x + x
+    doubleUs x  y = doubleMe x + doubleMe y
+
+-- ---------- DATA TYPES ----------
+-- Haskell uses type inference meaning it decides on the data type based on the -- value stored in it
+-- Haskell is statically typed and can't switch type after compiling
+-- Values can't be changed (Immutable)
+-- You can use :t in the terminal to get the data type (:t value)
+ 
+-- Int : Whole number -2^63 - 2^63
+-- :: Int defines that maxInt is an Int
+maxInt = maxBound :: Int
+minInt = minBound :: Int
+ 
+-- Integer : Unbounded (arbitary percesion) whole number which means that it can be as big as your memory can hold
+ 
+-- Float : Single precision floating point number
+-- Double : Double precision floating point number (11 pts precision)
+bigFloat = 3.99999999999 + 0.00000000005
+ 
+-- Bool : True or False
+-- Char : Single unicode character denoted with single quotes
+-- Tuple : Can store a list made up of many data types
+ 
+-- You declare the permanent value of a variable like this
+always5 :: Int
+always5 = 5 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 06:46 Math Functions
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 08:52 :t
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 12:23 Lists
+- homogenise
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 13:07 : Operator
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 14:52 !! Operator
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 15:10 Head / Last
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 15:43 Take
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 16:14 Elem
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 17:24 Create Range
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 19:50 Cycle
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 20:10 | Operator
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 20:57 Filter
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 23:00 ZipWith
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 23:29 More Filters
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 23:45 TakeWhile
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 24:22 Foldl
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 25:18 List Comprehension
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 26:52 Tuples
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 28:10 Zip
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 28:27 Functions
+    + function value
+    + apply function
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 30:01 Compiling
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 30:31 Type Declarations
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 34:58 Recursive Functions
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 37:27 Guards
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 40:51 Where
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 42:56 (x:y)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 44:50 As
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 45:45 Higher Order Functions
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 46:13 Map
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 46:51 (x:xs)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 51:49 Pass Function into a Function
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 53:08 Returning a Function
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 54:23 Lambda
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 55:09 If
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 56:19 Case
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 57:07 Modules
+    - modules are just a whole bunch of functions we're going to be able to use so we're just going to go 
+    ```haskell
+        --  the only two modules we're going to be importing
+        import Data.List
+        import System.IO
+    ```
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 57:52 Enumerations
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 1:01:51 Polymorphic Type
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 1:03:13 $ Operator
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 1:03:42 . Operator
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 1:05:00 Type Classes
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 1:07:09 Type Instance
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 1:08:55 Custom Typeclass
+    + num
+    + 
+
+
+num a = a -> a
+a: type variable
+num: type class
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 1:10:30 File I/O
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+* 1:12:16 Fibonacci Sequence
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 /*
-# Haskell REPL = ghci -> great haskell compiler interactor
 # :set prompet "ghci> "
-# everything is a function like: arithmatic operators, 
-# runhaskell manin.hs == :l main.hs -> load
-# :r -> reload
+# everything is a function : arithmatic operators, Bolean Algebra operators
+# runhaskell main.hs == :l main.hs -> load
+
 # :t 'c' -> type | :t (+) // () for operators only
 # :i Int -> interface
 # (/=) === (!=)
 # 5 * -1 erorr the right is: 5 * (-1)
-# comment in Haskell --
 # Experssion: everything return value
 # Defintions (names): function without any parameter 
 # "else" is mandatory in if then else
-# character between single qutations
-# list [] is a linkedlist
+# character between single qutations -> 'c'
+# list [] is a Singly-linkedlist
 # string is list of characters between double qutations
 # list ++ , !! , :
 */
+
+* built-in function
+    + min 2 5 => 2
+    + max 2 5 => 5
+    + succ 9 => 10
+
+
+
+
+
+
+
+
+
+
+
+
 lazyness
 - head -> head [1,2,3,4,5] => [1]
 - last -> last [1,2,3,4,5] => [5]  == head(reverse [1,2,3,4,5])
@@ -79,6 +341,10 @@ lazyness
 - list comprehension [(x,y) | x <- [..5], y <- [1..2]] => [(1,1),(1,2),(2,1),(2,2),(3,1),(3,2),(4,1),(4,2),(5,1),(5,2)]
 - list comprehension [(x,y,z) | x <- [1..10], y <- [1..10], z <- [1..10], x^2 +y^2 = z] => [(3,4,5),(4,3,5).(6,8,10),(8,6,10)]
 - 
+
+
+
+
 let var = expression in body
 λ let x = 4 in x * x  # let (optional)
 let square x = x * x in square 3 => 9
@@ -143,22 +409,6 @@ lambda function (\x -> x > 2)
 
 
 
-*/
-doubler x = x * 2
-
-factorial x = if x == 0
-		then 1
-		else x * (factoial (x-1))
-
-
-
-
-
-
-
-
-
-
 Higher-Order Functions
 ======================
 - map (+1) [1..5] => [2,3,4,5,6]
@@ -190,9 +440,9 @@ Higher-Order Functions
 
 
 
->math behind the functional programing
-- Category Theory
-- Lambda Calculus
+* math behind the functional programing
+    + Category Theory
+    + Lambda Calculus
 
 
 Functional Programming Concepts
@@ -413,9 +663,6 @@ maximum' (x:xs)
 
 
 
-recursive
-- edge case || edge condiction
-- numer of prams
 
 sum' :: (Ord a) => [a] -> a
 sum' [] = erorr "sum of empty list"
@@ -440,7 +687,7 @@ remove todoItem todoList = filter (\t -> t /= todoItem) todoList
 Resources
 =========
 - https://www.tryhaskell.org
-
+- [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/) -> Best Free Haskell Book
 
 
 - Ninety-Nine Prolog Problems
@@ -490,6 +737,229 @@ intellectual terrorism
 
 > Recurtion
 
+recursive
+- edge case || edge condiction
+- numer of prams
+
 - starting conditions
-- edge cases
+- edge cases ()
+
+
+
+
+
+
+
+
+
+
+
+
+- pure Vs impure
+
+
+
+
+
+
+
+
+
+* Haskell Terms
+    + Function => Expression
+    + Function Body/Defiation => Expression/Function Value    # no "return" keyword Expression evaluate to a Value
+    + Function Calling => Function Application
+
+
+
+
+
+
+Expression: Something evaluate to a Value
+
+
+Substitution Method
+
+
+
+
+
+
+
+
+|-----------------|-------------------|
+| Impartive Style | Declarative Style |
+|-----------------|-------------------|
+| Turing-machine | Church hypothesis |
+| based on mechanics | based on Math |
+| How factorial | What factorial |
+| Fortran | Lisp |
+| PC | Lisp-machines |
+| Easiest in Declartion |  |
+|  | Oldest from Impartive Style |
+|  | Paralell code |
+|  | Safer |
+|  |  |
+
+
+
+
+
+
+
+
+
+
+* Haskell Implementations:
+    + GHC
+    + LLVM
+
+
+
+
+
+
+
+
+- Partial Function Application
+* Evaluation
+    + Lazy
+    + Strict
+
+
+
++ Substitiution Method
++ Pattern Matching Style
+    ```haskell
+        factorial 0 = 1
+        factorial n = n * (factorial (n - 1))
+    ```
+
+
+
+
+
+
+type === data type === 
+* Type: a name for a collection of related values
+    + Type-Systems
+    + Type-Classes
+    + Type-Values
+    + Type-Inferance
+        - Explictly-defined Type -> instead of using Type-Inferance # best prctice in Haskell
+        - Implictly-defined Type
+    + Create your own custom type
+    + Type Checking: compiler check your types staticlly againest your language type-system duing code compilation (after parsing and)
+    + Type Assinment
+    + Genaric types
+    + Type Signture
+
+
+concrate-type: defined during run-time
+EX Boolean
+Type defination
+Type name: Boolean
+Proper Vaild Values: #True - #False
+
+define/assign typrs to functions
+
+Why do we need Types?
+- type Error #=> compiler help you in protection your program and make it safer and faster runtime doesn't need to check your types 
+- try to make your types as percise as possible
+
+Basics/Primitives Types
+
+- Types in Haskell begain wit hupper letter
+
+
+
+compiler do static analysisi for your code
+    - assigen invalid value
+    - returing invalid type 
+
+doubler :: Intger -> Intger # it maps from Intger to Intger
+doubler x = x * 2
+
+* symbols
+    + function ->
+
+function can take only one argumnet in Haskell
+
+
+
+lsit container/collection of homogenious values of arbitrany length
+
+value Constructor <=> Type Constructor
+
+[1, 2] <=> [Intger]
+[1, 2] </=> Array
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Haskell Compilation
+how to compile binaries from our Haskell source files
+
+GHC
+    - GHCi -> [interactive-mode - REPL - Interpreter]
+
+every time you want to ocompile a program you need to have a Main.IO Action
+empty Tuple as an internal type (your main fucntion)
+
+
+
+IO Monad === IO Monad
+
+
+import System.Environment
+    + getArgs :: IO [String]
+    + getProgName :: IO String
+
+    + getEnvironment :: IO [(String, String)]
+    + lookupEnv :: String -> IO (Maybe String)
+
+    
+import System.Exit
+    + 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
++ Custom Captive portal splash page
+
+* Captive portal
+    + Chillispot
+        + Cova Chilli
+    + wiifdog
+    + nodogsplash
+
+* OpenWrt with Web-panal
+    + Pulpstone-OpenWrt
+
+
+
+    + sophos XG Firewall
+
+
+
+
+
+
+lenses getter and setter compination to traverse nested structures
+
+
+
+
+
+
+
+
+
+
+
+
+
 

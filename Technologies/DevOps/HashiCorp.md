@@ -189,3 +189,12 @@ end
 - Nomad
 - Consol
 - Terraform
+
+
+
+
+
+
+nomad is an orchestration engine that solves the same problem as Kubernetes
+
+nomad can also orchestrate executables and it can orchestrate virtual machines and even just raw commands across an entire fleet of servers so it doesn't just handle container orchestration which is what kubernetes is primary if in fact kubernetes can only do that it doesn't orchestrate anything else for you

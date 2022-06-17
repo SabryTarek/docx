@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 movie
 - Morgan
 
@@ -142,3 +143,59 @@ gess what
 - https://developer.ibm.com/
 
 - https://github.com/samerfouad?tab=repositories | samerfouad / Repositories · GitHub
+=======
+
+https://developer.ibm.com/
+
+https://ibm.biz/Bd2EYT1
+
+
+
+cloud foundery
+===
+garden -> cluster
+
+sharing resources
+
+goal state current state
+
+engine - runtime
+
+
+.bin -> binary
+
+
+portal
+
+
+kubeconfig
+
+ibmcloud plugin list
+
+Insights Analyst
+Data Science
+    NLP
+        Watson Studio
+
+* Data engineering:
+- Wrangling
+- cleansing
+    - Semantic
+    - 
+- Preparation
+*** ML
+- Model Learning
+- Model validation
+* operation:
+    - one hot encoding
+    - normalization
+-
+
+> Refrences:
+- https://developer.ibm.com/africa/
+- https://www.facebook.com/groups/455667194845677/
+
+- https://developer.ibm.com/
+
+- https://github.com/samerfouad?tab=repositories | samerfouad / Repositories · GitHub
+>>>>>>> 4af8c228a1e5f92e035f488b94443d6c889500e6

@@ -329,14 +329,31 @@ VM Networking:
 
 
 
-Virsh is a management user interface for virsh guest domains.used to:
-- create
-- pause
-- restart
-- shutdown domains
--  list current domains available in your Virtualization hypervisor platform
+-----------------------------------------------------------------------------------------
+* Proxmox VE
+	- Debian host
+	- web interface at Port: 8006
+	- KVM, [OpenVZ](https://openvz.org) and LXC Containers
+		+ previous versions of Proxmox (pre 4), support Open VZ containers by default alng with KVM. Newer version moved toward LXC.
+		+ container-based virtualization for Linux
+		+ OpenVZ supports live migration
+		+ OpenVZ 4, you can run OpenVZ on a stock Linux 3.0 kernel
+		+ OpenVZ still benefits from it's own kernel. there are some OpenVZ kernel specific features
+		+ LXC is actually a derivative of OpenVZ for the mainline kernel so it's not some new idea
+		+ Booting from different kernels has always been trival so I don't see why that would be an issue with using OpenVZ
+		+ I guess some people are not comfortable using a non-mainline kernel and maybe think newer things are sexier.
+
+Docker promotes "single-process containers" as opposed to the traditional use of LXC which is more of a light-weight fully fledged virtual machine.
+
+Virtualization === Isolation
+
+Virtualization Technologies:
 
 
+
+Emulator: Machine code of CPU Architecture to Other one
+Simulator
+-----------------------------------------------------------------------------------------
 `Virsh` interacts with `Libvirt` which is a library aimed at providing a long-term stable C API. It currently supports:
 - Xen
 - QEMU
@@ -380,6 +397,12 @@ done
 
 
 
+Virsh is a management user interface for virsh guest domains.used to:
+- create
+- pause
+- restart
+- shutdown domains
+-  list current domains available in your Virtualization hypervisor platform
 
 sudo virt-install \
 --name ArchLinux \

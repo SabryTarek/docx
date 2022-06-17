@@ -1,5 +1,7 @@
 awk
 ====
+Text Processing
+fully launguge
 
 awk '/search_pattern/ { action_to_take_on_matches; another_action; }' file_to_parse
 gawk: GNU version of awk
@@ -21,8 +23,8 @@ gawk: GNU version of awk
   - $...
 -------------------------------------------------------------------------------------------------------------
 > logical Operators:
-- ~
-- !~
+- ~ # contain
+- !~  # not contain
 -------------------------------------------------------------------------------------------------------------
 > Comments:
 - single comment -> #
@@ -40,10 +42,10 @@ BEGIN { hello("Hello,World!") }
 > Array: # Hash_Table
 - delete array["value"]
 -------------------------------------------------------------------------------------------------------------
-- FS
+- FS  # Field Separator
 - OFS
 
-- RS
+- RS  # Record Separator
 - ORS
 
 - NR

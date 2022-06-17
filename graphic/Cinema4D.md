@@ -94,8 +94,7 @@ sound doesn’t work for exemple and as Docker for Mac/Windows runs with VM, you
 
 
 
-engine x] nginx]
-    "Igor Sysoev"
+nginx -> "Igor Sysoev"
 - reverse proxy server
 - HTTP server
 - mail proxy server
@@ -137,6 +136,36 @@ Nine hackers
 
 
 
+[TCP](Transmission Control Protocol)
+===
+* Clients/Servers
+    + nc
+    + netcat
+    + socat
+    + curl
+
+- /dev/tcp is a pseudo-device file Bash's feature, not kernel's
+- /dev/tcp is a Bash's feature, not kernel's
+- Bash supports read/write operations on a pseudo-device file /dev/tcp/[host]/[port]
+
+```bash
+$ nc -v -l 80 < file.txt
+$ nc -v -l -4 -p 7777   # Open/establish TCP Connection
+$ echo "Hello" > /dev/tcp/127.0.0.1/7777   # send text to TCP EndPoint/connection then close connection automaticlly
+$ cat < /dev/tcp/127.0.0.1/7777   # open half-duplex connection server only can send message
+$ exec 6<> /dev/tcp/127.0.0.1/7777   # create file descriptor/handler to
+    $ echo "Hello" >&6
+    $ cat <&6
+    $ cd /dev/fd; ls -lah
+    $ exec 6>&-
+
+
+$ exec 5<> /dev/tcp/google.com/80   # create file descriptor/handler to
+    $ echo -e "GET / HTTP/1.1\nHost: google.com\n\n" >&5
+    $ cat <&5
+
+$ cat </dev/tcp/time.nist.gov/13    # reads the time in Daytime Protocol from the NIST Internet Time Service server.
+```
 
 
 
